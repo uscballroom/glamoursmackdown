@@ -17,5 +17,5 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://uscballroom.github.io/glamoursmackdown"
+  "homepage": "https://glamoursmackdown.uscballroom.org/"
 }
