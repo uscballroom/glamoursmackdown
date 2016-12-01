@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import Navigation from './Navigation';
+
 import './App.css';
 
 class App extends Component {
   render() {
+    const expanded = (this.props.location.pathname === '/');
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+        <div className={'App-header' + (expanded ? ' App-header-expanded' : '')}>
           <h2>Glamour Smackdown</h2>
+          <Navigation/>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        {this.props.children}
       </div>
     );
   }
