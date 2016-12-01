@@ -8,7 +8,7 @@ class Home extends Component {
       <div className="Home">
         <div className="container">
           <p>
-            Welcome to the most extravagant of all collegiate dancesport
+            The USC Glamour Smackdown is the most extravagant of all collegiate dancesport
             competitions! Bring your boas, bling, bow ties, and most importantly
             your best ballroom dancing to knock out your opponents! Come,
             dance, win! 
