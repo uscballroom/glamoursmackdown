@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
 import App from './App';
 import Home from './pages/Home';
@@ -11,7 +11,7 @@ import './index.css';
 import 'bootstrap-css-only';
 
 ReactDOM.render(
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
       <Route path="prizes" component={Prizes}/>
