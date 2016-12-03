@@ -11,6 +11,9 @@ class Navigation extends Component {
           <IndexLink to="/" className="Navigation-link" activeClassName="Navigation-active">
             Home
           </IndexLink>
+          <Link to="/events" className="Navigation-link" activeClassName="Navigation-active">
+            Events & Schedule
+          </Link>
           <Link to="/prizes" className="Navigation-link" activeClassName="Navigation-active">
             Prizes
           </Link>

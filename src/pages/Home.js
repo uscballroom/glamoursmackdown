@@ -16,10 +16,7 @@ class Home extends Component {
               <h4 className="col-sm-2 Home-question">Where?</h4>
               <p className="col-sm-10">Tutor Campus Center Grand Ballroom at the University of Southern California</p>
             </div>
-            <div className="row">
-              <h4 className="col-sm-2 Home-question">What?</h4>
-              <p className="col-sm-10">Collegiate Ballroom Dance competition</p>
-            </div>
+            <h4 className="Home-question">What?</h4>
             <p>
               The USC Glamour Smackdown is the most extravagant of all collegiate dancesport
               competitions! Bring your boas, bling, bow ties, and most importantly
@@ -35,15 +32,16 @@ class Home extends Component {
               dancesport experience.
             </p>
             <h2>Registration Deadline: Friday,&nbsp;Feb.&nbsp;3,&nbsp;2017</h2>
-            <p>Late Registration Deadline: Friday,&nbsp;Feb.&nbsp;10,&nbsp;2017</p>
             <h2>Registration Price</h2>
             <h4>All events: $30</h4>
             <h4>Nightclub and/or Team Performance events only: $15</h4>
-            <h4>Late Registration:</h4>
-            <p>All events: $30</p>
-            <p>Nightclub and/or Team Performance $20</p>
             <h2>Spectator Admission&nbsp;Price</h2>
             <h5>$10</h5>
+            <h2>Late Registration</h2>
+            <h4>Late Registration Deadline: Friday,&nbsp;Feb.&nbsp;10,&nbsp;2017</h4>
+            <h4>Late Registration Price:</h4>
+            <p>All events: $40</p>
+            <p>Nightclub and/or Team Performance: $20</p>
           </div>
         </div>
       </div>
