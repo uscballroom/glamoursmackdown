@@ -1,14 +1,96 @@
+/*
+glamour red:
+#B9254B
+#FF4D79
+#FFA7BD
+
+glamour medium:
+#D27451
+
+glamour light:
+#F9F6BE
+
+smackdown tan:
+#FEF8C6
+#E6E5D7
+
+backdrop:
+#121422
+#1B1D2E
+#23253B
+#2A2D47
+*/
+
 .App {
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  background-color: #121422;
   text-align: center;
 }
 
-.App-header-expanded {
-  background-color: #000;
+.App-navigation-container {
+  flex: none;
+}
+
+.App-header-image {
+  width: 50%;
+  transition: width 0.4s, height 0.4s, max-height 0.4s;
+}
+
+.App-header-expanded .App-header-image {
+  max-height: unset;
+  height: auto;
+  width: 100%;
+}
+
+
+.App-navigation {
+  background-color: #1B1D2E;
+}
+.App-navigation-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.App-navigation-link {
+  line-height: 2.8em;
+  color: #F9F6BE;
+  height: 2.8em;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+}
+.App-navigation-link:hover {
+  color: #F9F6BE;
+  background-color: #2A2D47;
+  text-decoration: none;
+}
+.App-navigation-link:active {
+  color: #F9F6BE;
+  text-decoration: none;
+  background-color: #23253B;
+}
+.App-navigation-link:focus,
+.App-navigation-link:visited {
+  color: #F9F6BE;
+  text-decoration: none;
+}
+
+.App-navigation-active {
+  color: #FEF8C6;
+  border-bottom: 4px solid #FEF8C6;
+  text-decoration: none;
+}
+.App-navigation-active:active,
+.App-navigation-link:focus,
+.App-navigation-active:visited {
+  color: #FEF8C6;
+  text-decoration: none;
 }

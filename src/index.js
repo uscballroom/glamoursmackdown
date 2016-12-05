@@ -5,18 +5,18 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 import App from './App';
 import Home from './pages/Home';
 import Events from './pages/Events';
-import Prizes from './pages/Prizes';
+import Travel from './pages/Travel';
 import Contact from './pages/Contact';
 
-import './index.css';
 import 'bootstrap-css-only';
+import './index.css';
 
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
       <Route path="events" component={Events}/>
-      <Route path="prizes" component={Prizes}/>
+      <Route path="travel" component={Travel}/>
       <Route path="contact" component={Contact}/>
     </Route>
   </Router>,

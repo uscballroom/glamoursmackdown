@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-import './Contact.css';
+import './Travel.css';
 
-class Contact extends Component {
+class Travel extends Component {
   render() {
     return (
-      <div className="Contact">
+      <div className="Travel">
         <div className="container">
           <p>
-            Contact page
+            Travel page
           </p>
         </div>
       </div>
@@ -16,4 +16,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Travel;

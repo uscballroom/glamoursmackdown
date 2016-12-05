@@ -102,7 +102,7 @@ class Events extends Component {
                   <tr>
                     <td>{event.level}</td>
                     <td>{event.dances.map((dance, i) => (
-                      <span>
+                      <span className="Events-dances">
                         {i !== 0 && (<span>,&nbsp; </span>)}
                         <span className='Events-dance'>{dance}</span>
                       </span>
