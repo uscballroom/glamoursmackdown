@@ -1,22 +1,20 @@
-import React, { Component } from 'react';
-
 import './Home.css';
+
+import React, { Component } from 'react';
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <div className="container">
-          <div>
-            <div className="row">
-              <h4 className="col-sm-2 Home-question">When?</h4>
-              <p className="col-sm-10">February 18, 2017</p>
+        <div className="Home-top-section">
+          <div className="container">
+            <div className="Home-top-row">
+              <h6 className="Home-top-small-text">DATE</h6>
+              <h4 className="Home-top-info">Saturday February 18, 2017</h4>
             </div>
-            <div className="row">
-              <h4 className="col-sm-2 Home-question">Where?</h4>
-              <p className="col-sm-10">Tutor Campus Center Grand Ballroom at the University of Southern California</p>
-            </div>
-            <h4 className="Home-question">What?</h4>
+            <h6 className="Home-top-small-text">LOCATION</h6>
+            <h4 className="Home-top-info">Tutor Campus Center Grand Ballroom at the University of Southern California</h4>
+            <h6 className="Home-top-small-text">WHAT?</h6>
             <p>
               The USC Glamour Smackdown is the most extravagant of all collegiate dancesport
               competitions! Bring your boas, bling, bow ties, and most importantly
@@ -31,6 +29,10 @@ class Home extends Component {
               is about maxing out these contrasts to give competitors the ultimate
               dancesport experience.
             </p>
+          </div>
+        </div>
+        <div className="container">
+          <div>
             <h2>Registration Deadline: Friday,&nbsp;Feb.&nbsp;3,&nbsp;2017</h2>
             <h2>Registration Price</h2>
             <h4>All events: $30</h4>

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-
 import './Travel.css';
+
+import React, { Component } from 'react';
 
 class Travel extends Component {
   render() {

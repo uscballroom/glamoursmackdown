@@ -1,3 +1,6 @@
+import 'bootstrap-css-only';
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router'
@@ -8,8 +11,6 @@ import Events from './pages/Events';
 import Travel from './pages/Travel';
 import Contact from './pages/Contact';
 
-import 'bootstrap-css-only';
-import './index.css';
 
 ReactDOM.render(
   <Router history={hashHistory}>

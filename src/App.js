@@ -1,9 +1,9 @@
+import './App.css';
+
 import React, { Component } from 'react';
 import { IndexLink, Link } from 'react-router';
 
 import heroImage from './images/gs.jpg';
-
-import './App.css';
 
 class App extends Component {
   render() {
@@ -20,10 +20,16 @@ class App extends Component {
                 Home
               </IndexLink>
               <Link to="/events" className="App-navigation-link" activeClassName="App-navigation-active">
-                Events & Schedule
+                Events&nbsp;&amp;&nbsp;Schedule
               </Link>
               <Link to="/travel" className="App-navigation-link" activeClassName="App-navigation-active">
-                Travel
+                Travel&nbsp;&amp;&nbsp;Parking
+              </Link>
+              <Link to="/contact" className="App-navigation-link" activeClassName="App-navigation-active">
+                Register
+              </Link>
+              <Link to="/contact" className="App-navigation-link" activeClassName="App-navigation-active">
+                Rules
               </Link>
               <Link to="/contact" className="App-navigation-link" activeClassName="App-navigation-active">
                 Contact
@@ -33,7 +39,9 @@ class App extends Component {
             </div>
           </nav>
         </div>
-        {this.props.children}
+        <div className="App-page">
+          {this.props.children}
+        </div>
       </div>
     );
   }

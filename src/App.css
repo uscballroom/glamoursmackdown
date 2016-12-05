@@ -37,10 +37,13 @@ backdrop:
   width: 50%;
   transition: width 0.4s, height 0.4s, max-height 0.4s;
 }
+@media only screen and (max-width: 480px) {
+  .App-header-image {
+    width: 100%;
+  }
+}
 
 .App-header-expanded .App-header-image {
-  max-height: unset;
-  height: auto;
   width: 100%;
 }
 
@@ -50,11 +53,16 @@ backdrop:
 }
 .App-navigation-desktop {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+}
+@media only screen and (max-width: 480px) {
+  .App-navigation-desktop {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .App-navigation-link {
@@ -66,6 +74,7 @@ backdrop:
   padding-right: 16px;
   border-bottom: 4px solid transparent;
   text-decoration: none;
+  transition: background-color 0.1s;
 }
 .App-navigation-link:hover {
   color: #F9F6BE;
@@ -85,12 +94,22 @@ backdrop:
 
 .App-navigation-active {
   color: #FEF8C6;
-  border-bottom: 4px solid #FEF8C6;
+  /*border-bottom: 4px solid #FEF8C6;*/
+  background-color: rgba(254,248,198,0.25);
   text-decoration: none;
 }
+.App-navigation-active:hover {
+  background-color: rgba(254,248,198,0.25);
+}
 .App-navigation-active:active,
-.App-navigation-link:focus,
+.App-navigation-active:focus,
 .App-navigation-active:visited {
   color: #FEF8C6;
   text-decoration: none;
+}
+
+
+
+.App-page {
+  min-height: 100vh;
 }

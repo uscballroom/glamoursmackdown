@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-
 import './Events.css';
+
+import React, { Component } from 'react';
 
 class Events extends Component {
   _schedule = [

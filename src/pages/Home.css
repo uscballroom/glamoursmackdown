@@ -1,5 +1,18 @@
 .Home {
   padding: 20px 0;
 }
-.Home-question {
+
+.Home-top-section {
+  text-align: center;
+}
+
+.Home-top-small-text {
+  font-weight: bold;
+}
+
+.Home-top-info {
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 480px) {
 }

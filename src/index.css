@@ -5,3 +5,11 @@ body {
   background-color: #121422;
   color: #E6E5D7;
 }
+
+/*
+@media only screen and (min-width : 320px) {}
+@media only screen and (min-width : 480px) {}
+@media only screen and (min-width : 768px) {}
+@media only screen and (min-width : 992px) {}
+@media only screen and (min-width : 1200px) {}
+*/
