@@ -7,11 +7,11 @@ import heroImage from './images/logo.svg';
 
 class App extends Component {
   render() {
-    const expanded = true;// (this.props.location.pathname === '/');
+    const expanded = (this.props.location.pathname === '/');
     return (
       <div className="App">
         <div className={'App-header' + (expanded ? ' App-header-expanded' : '')}>
-          <div className="container App-header-image-link">
+          <div className="container">
             <img src={heroImage} alt="Glamour Smackdown" className="App-header-image"/>
           </div>
           <div className="App-navigation-full-width">

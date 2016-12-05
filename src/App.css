@@ -29,21 +29,17 @@ backdrop:
   text-align: center;
 }
 
-.App-header-image-link {
-  display: block;
-}
 .App-header-image {
   width: 50%;
-  transition: width 0.4s, height 0.4s, max-height 0.4s;
+  transition: width 0.35s;
+}
+.App-header-expanded .App-header-image {
+  width: 100%;
 }
 @media only screen and (max-width: 560px) {
   .App-header-image {
     width: 100%;
   }
-}
-
-.App-header-expanded .App-header-image {
-  width: 100%;
 }
 
 
