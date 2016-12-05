@@ -36,7 +36,7 @@ backdrop:
   width: 50%;
   transition: width 0.4s, height 0.4s, max-height 0.4s;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 560px) {
   .App-header-image {
     width: 100%;
   }
@@ -47,49 +47,38 @@ backdrop:
 }
 
 
+
 .App-navigation-full-width {
 }
 .App-navigation-capsule {
   background-color: #DC1D46;
   overflow: hidden;
-  border-radius: 1.4em;
+  border-radius: 1.37em;
 }
 .App-navigation {
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 500;
   letter-spacing: 0.2px;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
 }
-@media only screen and (max-width: 481px) {
-  .App-navigation-container {
-/*    padding-left: 0;
-    padding-right: 0;
-*/  }
+@media only screen and (max-width: 560px) {
   .App-navigation {
     flex-flow: column nowrap;
     justify-content: flex-start;
   }
-
-  .App-navigation-capsule {
-    padding-left: 
-  }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 560px) {
   .App-navigation {
     flex-flow: row wrap;
     justify-content: center;
   }
-  
   .App-navigation-capsule {
-    background-color: #DC1D46;
     display: inline-block;
     padding-left: 3px;
     padding-right: 3px;
   }
-
   .App-navigation-link {
-    border-radius: 1.4em;
+    border-radius: 1.37em;
     margin-left: -3px;
     margin-right: -3px;
   }
@@ -97,8 +86,8 @@ backdrop:
 
 .App-navigation-link {
   z-index: 2;
-  line-height: 2.8em;
-  height: 2.8em;
+  line-height: 2.74em;
+  height: 2.74em;
   display: block;
   padding-left: 16px;
   padding-right: 16px;

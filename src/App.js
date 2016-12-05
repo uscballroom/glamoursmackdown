@@ -7,7 +7,7 @@ import heroImage from './images/logo.svg';
 
 class App extends Component {
   render() {
-    const expanded = (this.props.location.pathname === '/');
+    const expanded = true;// (this.props.location.pathname === '/');
     return (
       <div className="App">
         <div className={'App-header' + (expanded ? ' App-header-expanded' : '')}>
