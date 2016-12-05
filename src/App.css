@@ -49,7 +49,7 @@ backdrop:
 .App-navigation-capsule {
   background-color: #DC1D46;
   overflow: hidden;
-  border-radius: 1.37em;
+  border-radius: 1.34em;
 }
 .App-navigation {
   font-size: 15px;
@@ -74,7 +74,7 @@ backdrop:
     padding-right: 3px;
   }
   .App-navigation-link {
-    border-radius: 1.37em;
+    border-radius: 1.34em;
     margin-left: -3px;
     margin-right: -3px;
   }
@@ -82,8 +82,8 @@ backdrop:
 
 .App-navigation-link {
   z-index: 2;
-  line-height: 2.74em;
-  height: 2.74em;
+  line-height: 2.68em;
+  height: 2.68em;
   display: block;
   padding-left: 16px;
   padding-right: 16px;
