@@ -6,12 +6,17 @@
   text-align: center;
 }
 
-.Home-top-small-text {
-  font-weight: bold;
+.Home-heading {
+  font-family: 'The Bold Font';
+  color: #FFF5B8;
 }
 
-.Home-top-info {
+.Home-info {
   font-weight: lighter;
+}
+
+.Home-row {
+
 }
 
 @media only screen and (max-width: 480px) {

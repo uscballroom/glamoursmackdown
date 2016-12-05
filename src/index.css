@@ -1,9 +1,14 @@
+@font-face { 
+  font-family: 'The Bold Font';
+  src: url('./fonts/the_bold_font.ttf') format('truetype'); 
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background-color: #121422;
-  color: #E6E5D7;
+  font-family: 'Avenir' sans-serif;
+  background-color: #141438;
+  color: white;
 }
 
 /*

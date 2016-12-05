@@ -8,13 +8,13 @@ class Home extends Component {
       <div className="Home">
         <div className="Home-top-section">
           <div className="container">
-            <div className="Home-top-row">
-              <h6 className="Home-top-small-text">DATE</h6>
-              <h4 className="Home-top-info">Saturday February 18, 2017</h4>
+            <div className="Home-row">
+              <p className="Home-heading">DATE</p>
+              <p className="Home-info">Saturday February 18, 2017</p>
             </div>
-            <h6 className="Home-top-small-text">LOCATION</h6>
-            <h4 className="Home-top-info">Tutor Campus Center Grand Ballroom at the University of Southern California</h4>
-            <h6 className="Home-top-small-text">WHAT?</h6>
+            <p className="Home-heading">LOCATION</p>
+            <p className="Home-info">Tutor Campus Center Grand Ballroom at the University of Southern California</p>
+            <p className="Home-heading">WHAT?</p>
             <p>
               The USC Glamour Smackdown is the most extravagant of all collegiate dancesport
               competitions! Bring your boas, bling, bow ties, and most importantly

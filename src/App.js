@@ -3,7 +3,7 @@ import './App.css';
 import React, { Component } from 'react';
 import { IndexLink, Link } from 'react-router';
 
-import heroImage from './images/gs.jpg';
+import heroImage from './images/logo.svg';
 
 class App extends Component {
   render() {
@@ -11,33 +11,34 @@ class App extends Component {
     return (
       <div className="App">
         <div className={'App-header' + (expanded ? ' App-header-expanded' : '')}>
-          <div className="container">
+          <div className="container App-header-image-link">
             <img src={heroImage} alt="Glamour Smackdown" className="App-header-image"/>
           </div>
-          <nav className="App-navigation">
-            <div className="container App-navigation-desktop">
-              <IndexLink to="/" className="App-navigation-link" activeClassName="App-navigation-active">
-                Home
-              </IndexLink>
-              <Link to="/events" className="App-navigation-link" activeClassName="App-navigation-active">
-                Events&nbsp;&amp;&nbsp;Schedule
-              </Link>
-              <Link to="/travel" className="App-navigation-link" activeClassName="App-navigation-active">
-                Travel&nbsp;&amp;&nbsp;Parking
-              </Link>
-              <Link to="/contact" className="App-navigation-link" activeClassName="App-navigation-active">
-                Register
-              </Link>
-              <Link to="/contact" className="App-navigation-link" activeClassName="App-navigation-active">
-                Rules
-              </Link>
-              <Link to="/contact" className="App-navigation-link" activeClassName="App-navigation-active">
-                Contact
-              </Link>
+          <div className="App-navigation-full-width">
+            <div className="container App-navigation-container">
+              <div className="App-navigation-capsule">
+                <nav className="App-navigation">
+                  <IndexLink to="/" className="App-navigation-link" activeClassName="App-navigation-active">
+                    home
+                  </IndexLink>
+                  <Link to="/events" className="App-navigation-link" activeClassName="App-navigation-active">
+                    events&nbsp;&amp;&nbsp;schedule
+                  </Link>
+                  <Link to="/travel" className="App-navigation-link" activeClassName="App-navigation-active">
+                    travel&nbsp;&amp;&nbsp;parking
+                  </Link>
+                  <Link to="/rules" className="App-navigation-link" activeClassName="App-navigation-active">
+                    rules
+                  </Link>
+                  <Link to="/contact" className="App-navigation-link" activeClassName="App-navigation-active">
+                    contact
+                  </Link>
+                </nav>
+              </div>
             </div>
             <div className="App-navigation-mobile">
             </div>
-          </nav>
+          </div>
         </div>
         <div className="App-page">
           {this.props.children}

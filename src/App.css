@@ -1,19 +1,20 @@
 /*
+blue: #141438
+magenta: #DC1D46
+yellow: #FFF5B8
+
+Old:
 glamour red:
 #B9254B
 #FF4D79
 #FFA7BD
-
 glamour medium:
 #D27451
-
 glamour light:
 #F9F6BE
-
 smackdown tan:
 #FEF8C6
 #E6E5D7
-
 backdrop:
 #121422
 #1B1D2E
@@ -25,14 +26,12 @@ backdrop:
 }
 
 .App-header {
-  background-color: #121422;
   text-align: center;
 }
 
-.App-navigation-container {
-  flex: none;
+.App-header-image-link {
+  display: block;
 }
-
 .App-header-image {
   width: 50%;
   transition: width 0.4s, height 0.4s, max-height 0.4s;
@@ -48,63 +47,98 @@ backdrop:
 }
 
 
+.App-navigation-full-width {
+}
+.App-navigation-capsule {
+  background-color: #DC1D46;
+  overflow: hidden;
+  border-radius: 1.4em;
+}
 .App-navigation {
-  background-color: #1B1D2E;
-}
-.App-navigation-desktop {
+  font-weight: bold;
+  letter-spacing: 0.2px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
 }
-@media only screen and (max-width: 480px) {
-  .App-navigation-desktop {
+@media only screen and (max-width: 481px) {
+  .App-navigation-container {
+/*    padding-left: 0;
+    padding-right: 0;
+*/  }
+  .App-navigation {
     flex-flow: column nowrap;
     justify-content: flex-start;
-    padding-left: 0;
-    padding-right: 0;
+  }
+
+  .App-navigation-capsule {
+    padding-left: 
+  }
+}
+@media only screen and (min-width: 480px) {
+  .App-navigation {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .App-navigation-capsule {
+    background-color: #DC1D46;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .App-navigation-link {
+    border-radius: 1.4em;
+    margin-left: -3px;
+    margin-right: -3px;
   }
 }
 
 .App-navigation-link {
+  z-index: 2;
   line-height: 2.8em;
-  color: #F9F6BE;
   height: 2.8em;
   display: block;
   padding-left: 16px;
   padding-right: 16px;
-  border-bottom: 4px solid transparent;
   text-decoration: none;
-  transition: background-color 0.1s;
+  color: #FFF5B8;
 }
 .App-navigation-link:hover {
-  color: #F9F6BE;
-  background-color: #2A2D47;
   text-decoration: none;
+  color: #FFF5B8;
+  background-color: #EA7374;
+  /*background-color: rgba(255,245,184,0.4);*/
 }
 .App-navigation-link:active {
-  color: #F9F6BE;
   text-decoration: none;
-  background-color: #23253B;
+  z-index: 0;
+  color: #FFF5B8;
+  background-color: #E13E58;
+  /*background-color: rgba(255,245,184,0.15);*/
 }
 .App-navigation-link:focus,
 .App-navigation-link:visited {
-  color: #F9F6BE;
   text-decoration: none;
+  color: #FFF5B8;
 }
 
 .App-navigation-active {
-  color: #FEF8C6;
-  /*border-bottom: 4px solid #FEF8C6;*/
-  background-color: rgba(254,248,198,0.25);
+  z-index: 1;
   text-decoration: none;
+  color: #FFF5B8;
+  background-color: #E55363;
+  /*background-color: rgba(255,245,184,0.25);*/
 }
 .App-navigation-active:hover {
-  background-color: rgba(254,248,198,0.25);
+  background-color: #E55363;
+  /*background-color: rgba(255,245,184,0.25);*/
 }
 .App-navigation-active:active,
 .App-navigation-active:focus,
 .App-navigation-active:visited {
-  color: #FEF8C6;
+  color: #FFF5B8;
   text-decoration: none;
 }
 
