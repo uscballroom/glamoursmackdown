@@ -36,7 +36,7 @@ backdrop:
 .App-header-expanded .App-header-image {
   width: 100%;
 }
-@media only screen and (max-width: 560px) {
+@media (max-width: 480px) {
   .App-header-image {
     width: 100%;
   }
@@ -57,13 +57,13 @@ backdrop:
   letter-spacing: 0.2px;
   display: flex;
 }
-@media only screen and (max-width: 560px) {
+@media (max-width: 480px) {
   .App-navigation {
     flex-flow: column nowrap;
     justify-content: flex-start;
   }
 }
-@media only screen and (min-width: 560px) {
+@media (min-width: 481px) {
   .App-navigation {
     flex-flow: row wrap;
     justify-content: center;
@@ -73,7 +73,7 @@ backdrop:
     padding-left: 3px;
     padding-right: 3px;
   }
-  .App-navigation-link {
+  .App-navigation > .App-navigation-link {
     border-radius: 1.34em;
     margin-left: -3px;
     margin-right: -3px;
