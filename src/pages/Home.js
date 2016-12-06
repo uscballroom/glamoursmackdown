@@ -31,9 +31,11 @@ class Home extends Component {
               <div className="Home-title">WHAT</div>
               <div className="Home-info">
                 <p>
-                  The USC Glamour Smackdown is the most extravagant of all collegiate dancesport
-                  competitions! Bring your boas, bling, bow ties, and most importantly
-                  your best ballroom dancing to knock out your opponents!
+                  The USC Glamour Smackdown is the most extravagant of all
+                  collegiate ballroom dance competitions! Bring your boas,
+                  bling, bow ties, and most importantly your best ballroom
+                  dancing to amaze your adoring fans and knock out your
+                  opponents!
                 </p>
                 <p>
                   Let the countdown to the smackdown begin!
@@ -57,18 +59,23 @@ class Home extends Component {
                 <p><strong>Registration Deadline: Friday,&nbsp;Feb.&nbsp;3,&nbsp;2017</strong></p>
                 <p><a href="" className="Home-register-link" target="_blank">Register now</a></p>
                 <p>
-                  <strong>Prices</strong>
+                  <strong>Registration Prices (per person)</strong>
                   <ul>
-                    <li><b>$30</b> All events</li>
+                    <li><b>$30</b> Unlimited event entries</li>
                     <li><b>$15</b> Nightclub and/or Performance Team events only</li>
-                    <li><b>$10</b> Spectator admission (at the door)</li>
+                  </ul>
+                </p>
+                <p>
+                  <strong>Spectator admission</strong>
+                  <ul>
+                    <li><b>$10</b> at the door</li>
                   </ul>
                 </p>
                 <p>
                   <strong>Late Registration</strong>
                   <ul>
                     <li>Late deadline: <b>Friday,&nbsp;Feb.&nbsp;10,&nbsp;2017</b></li>
-                    <li><b>$40</b> All events</li>
+                    <li><b>$40</b> Unlimited event entries</li>
                     <li><b>$20</b> Nightclub and/or Performance Team events only</li>
                   </ul>
                 </p>
