@@ -7,9 +7,19 @@ class Rules extends Component {
     return (
       <div className="Rules">
         <div className="container">
-          <p>
-            Rules page
-          </p>
+        <div className="Common-row">
+          <div className="Common-title">COMING SOON</div>
+          <div className="Common-info">
+            <p>
+              Information about the Glamour Smackdown competition rules will be
+              added here soon.
+            </p>
+            <p>
+              Join the Glamour Smackdown <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Facebook Event</a> to
+              receive updates when more information becomes available.
+            </p>
+          </div>
+        </div>
         </div>
       </div>
     );
