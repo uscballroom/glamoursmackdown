@@ -176,14 +176,10 @@ class Travel extends Component {
             </div>
           </div>
           <div className="Travel-map-capsule">
-            <div className="Travel-map-container">
-              <div className="Travel-map-container2">
-                <iframe
-                  className="Travel-map"
-                  src="https://www.google.com/maps/d/u/0/embed?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM"
-                />
-              </div>
-            </div>
+            <iframe
+              className="Travel-map"
+              src="https://www.google.com/maps/d/u/0/embed?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM"
+            />
           </div>
         </div>
       </div>

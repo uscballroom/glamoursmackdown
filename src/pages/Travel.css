@@ -3,16 +3,13 @@
 }
 
 .Travel-map-capsule {
-  padding: 12px;
   background-color: #DC1D46;
-  border-radius: 20px;
-}
-
-.Travel-map-container {
+  border: 8px solid #DC1D46;
   position: relative;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 20px;
   height: 500px;
+  box-sizing: content-box;
 }
 
 .Travel-map {
