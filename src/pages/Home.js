@@ -6,19 +6,19 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <div className="Home-top-section">
+        <div className="Common-top-section">
           <div className="container">
-            <div className="Home-row">
-              <div className="Home-title">WHEN</div>
-              <div className="Home-info">
+            <div className="Common-row">
+              <div className="Common-title">WHEN</div>
+              <div className="Common-info">
                 <p>
                   Saturday February 18, 2017
                 </p>
               </div>
             </div>
-            <div className="Home-row">
-              <div className="Home-title">WHERE</div>
-              <div className="Home-info">
+            <div className="Common-row">
+              <div className="Common-title">WHERE</div>
+              <div className="Common-info">
                 <p>
                   <strong>Tutor Campus Center Grand Ballroom</strong><br/>
                   University of Southern California<br/>
@@ -27,9 +27,9 @@ class Home extends Component {
                 </p>
               </div>
             </div>
-            <div className="Home-row">
-              <div className="Home-title">WHAT</div>
-              <div className="Home-info">
+            <div className="Common-row">
+              <div className="Common-title">WHAT</div>
+              <div className="Common-info">
                 <p>
                   The USC Glamour Smackdown is the most extravagant of all
                   collegiate ballroom dance competitions! Bring your boas,
@@ -42,9 +42,9 @@ class Home extends Component {
                 </p>
               </div>
             </div>
-            <div className="Home-row">
-              <div className="Home-title">ABOUT THE THEME</div>
-              <div className="Home-info">
+            <div className="Common-row">
+              <div className="Common-title">ABOUT THE THEME</div>
+              <div className="Common-info">
                 <p>
                   Dancesport sits at the crossroads of two wildly different ideas.
                   It's elegant, but fierce; cordial, but cutthroat. Glamour Smackdown
@@ -53,11 +53,11 @@ class Home extends Component {
                 </p>
               </div>
             </div>
-            <div className="Home-row">
-              <div className="Home-title">REGISTRATION</div>
-              <div className="Home-info">
+            <div className="Common-row">
+              <div className="Common-title">REGISTRATION</div>
+              <div className="Common-info">
                 <p><strong>Registration Deadline: Friday,&nbsp;Feb.&nbsp;3,&nbsp;2017</strong></p>
-                <p><a href="" className="Home-register-link" target="_blank">Register now</a></p>
+                <p><a href="" className="Common-register-link" target="_blank">Register now</a></p>
                 <p>
                   <strong>Registration Prices (per person)</strong>
                   <ul>

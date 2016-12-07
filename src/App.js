@@ -21,11 +21,11 @@ class App extends Component {
                   <IndexLink to="/" className="App-navigation-link" activeClassName="App-navigation-active">
                     home
                   </IndexLink>
+                  <Link to="/travel" className="App-navigation-link" activeClassName="App-navigation-active">
+                    location&nbsp;&amp;&nbsp;travel
+                  </Link>
                   <Link to="/events" className="App-navigation-link" activeClassName="App-navigation-active">
                     events&nbsp;&amp;&nbsp;schedule
-                  </Link>
-                  <Link to="/travel" className="App-navigation-link" activeClassName="App-navigation-active">
-                    travel&nbsp;&amp;&nbsp;parking
                   </Link>
                   <Link to="/rules" className="App-navigation-link" activeClassName="App-navigation-active">
                     rules

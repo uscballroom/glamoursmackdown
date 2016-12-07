@@ -75,6 +75,9 @@ class Events extends Component {
     return (
       <div className="Events">
         <div className="container">
+          <p>
+            More updates to this page coming soon!
+          </p>
           <h1>
             Tentative Schedule
           </h1>
