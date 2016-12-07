@@ -178,7 +178,7 @@ class Travel extends Component {
           <div className="Travel-map-capsule">
             <iframe
               className="Travel-map"
-              src="https://www.google.com/maps/d/u/0/embed?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM"
+              src="https://www.google.com/maps/d/embed?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM"
             />
           </div>
         </div>
