@@ -3,7 +3,6 @@ import './Travel.css';
 import React, { Component } from 'react';
 
 import panelButton from '../images/map_panel_button_example.png';
-import expandButton from '../images/map_expand_button_example.png';
 
 class Travel extends Component {
   render() {
@@ -28,11 +27,11 @@ class Travel extends Component {
                 Only USC students can enter campus after 9pm and before 6am.
               </p>
               <p>
-                If you need to enter campus outside of those hours,
+                If you need to enter campus outside of these hours,
                 email <a href="mailto:ballroomusc@gmail.com" target="_blank">
                 ballroomusc@gmail.com</a> before the day of the competition
                 to be placed on the guest list. If you aren't on the guest list
-                and need to enter campus during night hours on the weekend of
+                and need to enter campus outside these hours on the weekend of
                 the competition, check back here for a phone number to call.
               </p>
             </div>
@@ -171,7 +170,7 @@ class Travel extends Component {
                 </a> for walking directions and food locations.
               </p>
               <p>
-                Click the Side Panel button <img src={panelButton}/> to show
+                Click the Side Panel button <img src={panelButton} role="presentation"/> to show
                 directions from hotels, transit, and parking.
               </p>
             </div>
