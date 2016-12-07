@@ -114,8 +114,8 @@ class Travel extends Component {
             <div className="Common-title">FOOD & DRINK</div>
             <div className="Common-info">
               <p>
-                There are 5 recommended food locations near Glamour Smackdown.
-                See the map below for their locations.
+                There are 5 recommended food & drink locations near Glamour
+                Smackdown. See the map below for their locations.
               </p>
               <p>
                 <strong>#1</strong> Tutor Campus Center (limited weekend open hours)
