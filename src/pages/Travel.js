@@ -32,7 +32,7 @@ class Travel extends Component {
                 email <a href="mailto:ballroomusc@gmail.com" target="_blank">
                 ballroomusc@gmail.com</a> before the day of the competition
                 to be placed on the guest list. If you aren't on the guest list
-                and need to enter campus during night hours on the day of
+                and need to enter campus during night hours on the weekend of
                 the competition, check back here for a phone number to call.
               </p>
             </div>
