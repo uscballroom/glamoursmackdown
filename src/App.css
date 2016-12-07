@@ -36,7 +36,7 @@ backdrop:
 .App-header-expanded .App-header-image {
   width: 100%;
 }
-@media (max-width: 480px) {
+@media (max-width: 520px) {
   .App-header-image {
     width: 100%;
   }
@@ -57,13 +57,13 @@ backdrop:
   letter-spacing: 0.2px;
   display: flex;
 }
-@media (max-width: 480px) {
+@media (max-width: 520px) {
   .App-navigation {
     flex-flow: column nowrap;
     justify-content: flex-start;
   }
 }
-@media (min-width: 481px) {
+@media (min-width: 521px) {
   .App-navigation {
     flex-flow: row wrap;
     justify-content: center;

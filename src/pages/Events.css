@@ -2,16 +2,61 @@
   padding: 20px 0;
 }
 
-.Events-table th,
-.Events-table td {
-  padding: 4px 10px;
+.Events-schedule-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-bottom: 4px;
+}
+.Events-schedule-time {
+  flex: 0 0 74px;
+}
+.Events-schedule-activity {
+  flex: 1;
 }
 
-.Events-dances {
-  line-height: 1.8em;
+
+
+.Events-eventlist-style {
+  margin-bottom: 36px;
 }
-.Events-dance {
-  background-color: #2A2D47;
-  padding: 3px 8px;
-  border-radius: 4px;
+.Events-eventlist-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin: 5px 0;
 }
+.Events-eventlist-level-column {
+  padding-top: 2px;
+  flex: 0 0 96px;
+}
+.Events-eventlist-dances-column {
+  flex: 1;
+}
+.Events-eventlist-dances {
+  display: flex;
+  flex-flow: row wrap;
+}
+.Events-eventlist-dance {
+  color: #FFF5B8;
+  background-color: #DC1D46;
+  padding: 2px 8px 1px;
+  margin: 0 6px 4px 0;
+  border-radius: 6px;
+}
+
+@media (max-width: 750px) {
+  .Events-eventlist-row {
+    flex-flow: column nowrap;
+    margin: 8px 0;
+  }
+  .Events-eventlist-level-column {
+    flex: unset;
+    margin-bottom: 6px;
+  }
+  .Events-eventlist-dances-column {
+    flex: unset;
+    margin-left: 8px;
+  }
+}
+
