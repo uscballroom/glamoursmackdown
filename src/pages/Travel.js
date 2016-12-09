@@ -114,11 +114,13 @@ class Travel extends Component {
             <div className="Common-title">FOOD & DRINK</div>
             <div className="Common-info">
               <p>
-                There are 5 recommended food & drink locations near Glamour
-                Smackdown. See the map below for their locations.
+                We recommend 6 fast-food & drink locations near Glamour
+                Smackdown. See the map below for their locations. Open
+                hours for the day of the competition are shown for the
+                on-campus locations (#1-3).
               </p>
               <p>
-                <strong>#1</strong> Tutor Campus Center (limited weekend open hours)
+                <strong>#1</strong> Tutor Campus Center
                 <ul>
                   <li>Coffee Bean & Tea Leaf&nbsp;&nbsp; <b>(open 9am-3pm)</b></li>
                   <li>California Pizza Kitchen&nbsp;&nbsp; <b>(open 11am-3pm)</b></li>
@@ -133,7 +135,14 @@ class Travel extends Component {
                 </ul>
               </p>
               <p>
-                <strong>#3</strong> Gateway apartment building
+                <strong>#3</strong> Ground Zero Coffee House, behind Trojan Resident Hall
+                <ul>
+                  <li>Great milkshakes, coffee, and tea
+                  drinks&nbsp;&nbsp; <b>(open 1pm-8pm)</b></li>
+                </ul>
+              </p>
+              <p>
+                <strong>#4</strong> Gateway apartment building
                 <ul>
                   <li>Dog Haus</li>
                   <li>Blaze Pizza</li>
@@ -143,7 +152,7 @@ class Travel extends Component {
                 </ul>
               </p>
               <p>
-                <strong>#4</strong> Icon Plaza apartment building
+                <strong>#5</strong> Icon Plaza apartment building
                 <ul>
                   <li>Starbucks</li>
                   <li>Pizza Studio</li>
@@ -151,7 +160,7 @@ class Travel extends Component {
                 </ul>
               </p>
               <p>
-                <strong>#5</strong> Tuscany apartment building
+                <strong>#6</strong> Tuscany apartment building
                 <ul>
                   <li>Coffee Bean & Tea Leaf</li>
                   <li>Chipotle</li>
