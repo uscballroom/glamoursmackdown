@@ -15,7 +15,7 @@ class Rules extends Component {
               added here soon.
             </p>
             <p>
-              Join the Glamour Smackdown <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Facebook Event</a> to
+              Join the Glamour Smackdown <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Facebook event</a> to
               receive updates when more information becomes available.
             </p>
           </div>

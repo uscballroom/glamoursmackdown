@@ -99,6 +99,11 @@ class Events extends Component {
                 within a style may not be the same as listed here.
               </p>
               <p>
+                Note: Before registration opens, the event list is subject to
+                change. Join the Glamour Smackdown <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Facebook event</a> to
+                be notified when registration opens or anything changes.
+              </p>
+              <p>
                 Multi-dance events are grouped together by slashes, in the same
                 bubble.
               </p>

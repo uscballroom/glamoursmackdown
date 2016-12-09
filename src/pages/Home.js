@@ -58,7 +58,11 @@ class Home extends Component {
               <div className="Common-title">REGISTRATION</div>
               <div className="Common-info">
                 <p><strong>Registration Deadline: Friday,&nbsp;Feb.&nbsp;3,&nbsp;2017</strong></p>
-                <p><a href="" className="Common-register-link" target="_blank">Register now</a></p>
+                <p className="Home-register-link">
+                  Registration will be open soon! Join the Glamour Smackdown <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Facebook event</a> to
+                  receive an update when registration opens.
+                </p>
+                {/*<p><a href="" className="Home-register-link" target="_blank">Register now</a></p>*/}
                 <p>
                   <strong>Registration Prices (per person)</strong>
                   <ul>
