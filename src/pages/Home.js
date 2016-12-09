@@ -46,10 +46,11 @@ class Home extends Component {
               <div className="Common-title">ABOUT THE THEME</div>
               <div className="Common-info">
                 <p>
-                  Dancesport sits at the crossroads of two wildly different ideas.
-                  It's elegant, but fierce; cordial, but cutthroat. Glamour Smackdown
-                  is about maxing out these contrasts to give competitors the ultimate
-                  dancesport experience.
+                  Dancesport sits at the crossroads of two wildly different
+                  ideas &mdash; it's flashy, but fierce; cordial, but
+                  cutthroat. At the Glamour Smackdown, dancers come together
+                  to experience intense competition but also the glamour,
+                  beauty, and joy of ballroom dancing!
                 </p>
               </div>
             </div>
