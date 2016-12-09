@@ -8,6 +8,15 @@ class Contact extends Component {
       <div className="Contact">
         <div className="container">
           <div className="Common-row">
+            <div className="Common-title">FACEBOOK EVENT</div>
+            <div className="Common-info">
+              <p>
+                Join the <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Glamour Smackdown event on Facebook</a> to receive updates
+                and announcements leading up to the competition.
+              </p>
+            </div>
+          </div>
+          <div className="Common-row">
             <div className="Common-title">CONTACT US</div>
             <div className="Common-info">
               <p>
@@ -15,21 +24,9 @@ class Contact extends Component {
                 with any questions about the Glamour Smackdown!
               </p>
               <p>
-                Join the Glamour Smackdown Facebook event to receive updates
-                and announcements leading up to the competition.
-              </p>
-              <p>
                 The USC Glamour Smackdown is hosted with love by the SC Ballroom Dance
                 Team, the premiere ballroom dancing organization at USC.  To
                 find out more about us, visit our website or Facebook page.
-              </p>
-            </div>
-          </div>
-          <div className="Common-row">
-            <div className="Common-title">EVENT</div>
-            <div className="Common-info">
-              <p>
-                <a href="https://www.facebook.com/events/142139819599212/" target="_blank">USC Glamour Smackdown Facebook event</a>
               </p>
             </div>
           </div>
