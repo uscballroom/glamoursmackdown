@@ -1,3 +1,11 @@
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+
+
+
 @font-face { 
   font-family: 'The Bold Font';
   src: url('./fonts/the_bold_font.ttf') format('truetype'); 
@@ -45,21 +53,6 @@ a:active {
 
 p {
   margin-bottom: 14px;
-}
-
-/*
-@media (min-width : 320px) {}
-@media (min-width : 480px) {}
-@media (min-width : 768px) {}
-@media (min-width : 992px) {}
-@media (min-width : 1200px) {}
-*/
-
-
-@media (min-width: 850px) {
-  .container {
-    width: 850px;
-  }
 }
 
 

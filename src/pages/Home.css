@@ -2,6 +2,17 @@
   padding: 20px 0;
 }
 
+.Home-time-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.Home-time-activity {
+  padding-right: 40px;
+  margin-bottom: 4px;
+  /*flex: 1 0 190px;*/
+}
+
 .Home-register-link {
   font-size: 1.1em;
 }
