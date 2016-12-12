@@ -198,11 +198,19 @@ class Rules extends Component {
             <div className="Common-info">
               <p>
                 Nightclub events at the Glamour Smackdown have two
-                levels: <b>Beginner</b> and <b>Non-Beginner</b>. At
-                the <b>Beginner</b> level, both dancers in a couple must have
-                been partner-dancing for less than two years. There is no
-                restriction for registration in Nightclub events at
-                the <b>Non-Beginner</b> level.
+                levels: <b>Beginner</b> and <b>Non-Beginner</b>.
+              </p>
+              <p>
+                <ul>
+                  <li>
+                    At the <b>Beginner</b> level, both dancers in a couple
+                    must have been partner-dancing for less than two years.
+                  </li>
+                  <li>
+                    There is no restriction for registration in Nightclub
+                    events at the <b>Non-Beginner</b> level.
+                  </li>
+                </ul>
               </p>
               <p>
                 There are no restrictions on dance figures in Nightclub events.
@@ -210,7 +218,8 @@ class Rules extends Component {
               </p>
               <p>
                 There are no costume restrictions for all Nightclub events.
-                This is your chance to be especially glamourous!
+                This is your chance to be especially glamourous! Or to dance
+                in pajamas.
               </p>
             </div>
           </div>
