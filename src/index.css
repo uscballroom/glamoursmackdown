@@ -35,8 +35,17 @@ b {
   letter-spacing: 0.4px;
 }
 
-ul {
+ul, ol {
   padding-left: 20px;
+}
+
+/* Hack to make ol's numbers bold. The contents of every li in every ol should
+ * be wrapped in something, such as a span. */
+ol > li {
+  font-weight: 700;
+}
+ol > li > * {
+  font-weight: normal;
 }
 
 a, a:visited, a:focus {

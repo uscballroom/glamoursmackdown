@@ -13,9 +13,18 @@ import Rules from './pages/Rules';
 import Contact from './pages/Contact';
 
 
+const _scrollToTop = () => {
+  var currentScrollPosition =
+    document.documentElement.scrollTop || document.body.scrollTop;
+  if (currentScrollPosition > 0) {
+    window.requestAnimationFrame(_scrollToTop);
+    window.scrollTo(0, currentScrollPosition - (currentScrollPosition/5));
+  }
+}
+
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path="/" component={App}>
+    <Route path="/" component={App} onChange={_scrollToTop}>
       <IndexRoute component={Home}/>
       <Route path="events" component={Events}/>
       <Route path="travel" component={Travel}/>

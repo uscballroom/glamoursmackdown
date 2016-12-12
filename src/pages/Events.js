@@ -1,6 +1,7 @@
 import './Events.css';
 
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Events extends Component {
   _schedule = [
@@ -99,13 +100,17 @@ class Events extends Component {
                 within a style may not be the same as listed here.
               </p>
               <p>
+                Check the <Link to="/rules">rules</Link> page for information
+                about what levels you can register at.
+              </p>
+              <p>
                 Note: Before registration opens, the event list is subject to
                 change. Join the Glamour Smackdown <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Facebook event</a> to
                 be notified when registration opens or anything changes.
               </p>
               <p>
-                Multi-dance events are grouped together by slashes, in the same
-                bubble.
+                Dances in multi-dance events appear in the same bubble, separated
+                by slashes.
               </p>
             </div>
           </div>
