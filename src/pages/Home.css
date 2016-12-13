@@ -7,10 +7,8 @@
   flex-flow: row wrap;
   justify-content: flex-start;
 }
-.Home-time-activity {
+.Home-time-col {
   padding-right: 40px;
-  margin-bottom: 4px;
-  /*flex: 1 0 190px;*/
 }
 
 .Home-register-link {

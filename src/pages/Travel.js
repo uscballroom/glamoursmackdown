@@ -24,10 +24,7 @@ class Travel extends Component {
             <div className="Common-title">CAMPUS HOURS</div>
             <div className="Common-info">
               <p>
-                Only USC students can enter campus after 9pm and before 6am.
-              </p>
-              <p>
-                If you need to enter campus outside of these hours,
+                If you need to enter campus before 6am or after 9pm,
                 email <a href="mailto:ballroomusc@gmail.com" target="_blank">
                 ballroomusc@gmail.com</a> before the day of the competition
                 to be placed on the guest list. If you aren't on the guest list

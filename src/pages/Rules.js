@@ -13,18 +13,24 @@ class Rules extends Component {
             <div className="Common-info">
               <p>
                 The USC Glamour Smackdown is
-                a <a href="http://www.collegiatedancesport.org/" target="_blank">Collegiate
-                Dancesport Association</a> Affiliated Competition. We aim to
-                provide a fun competition experience for all by observing
-                the <a href="http://www.collegiatedancesport.org/fair-level-certification/" target="_blank">CDA
-                Fair Level Certification</a> system (abbreviated <b>FLC</b>).
-                We will not allow competitors to register below
-                their <b>FLC</b> level for each event.
+                a <a href="http://www.collegiatedancesport.org/" target="_blank">Collegiate&nbsp;Dancesport&nbsp;Association</a>&nbsp;(CDA)
+                Affiliated Competition. We aim to provide a fun competition
+                experience for all by observing
+                the <a href="http://www.collegiatedancesport.org/fair-level-certification/" target="_blank">CDA&nbsp;Fair&nbsp;Level&nbsp;Certification</a> system.
+                Competitors may not register below their Proficiency Level
+                for each event.
+              </p>
+              <p>
+                Proficiency levels are calculated based on a combination of
+                honorable self-enforcement and your recorded performance at
+                previous CDA-recognized competitions. Visit
+                the <a href="http://www.collegiatedancesport.org/fair-level-certification/" target="_blank">CDA&nbsp;Fair&nbsp;Level&nbsp;Certification</a> site
+                to see how your Proficiency Level is calculated.
               </p>
               <p>
                 These levels do not apply to <b>Nightclub</b> and <b>Performance
                 Team</b> events. Scroll to the bottom of this page for rules
-                regarding Nightclub and Performance Team events.
+                regarding Nightclub and Performance Team.
               </p>
               <p>
                 Here are the available levels, from lowest to highest skill
@@ -43,24 +49,38 @@ class Rules extends Component {
               </p>
               <p>
                 In each dance, competitors are allowed to register for two
-                events, at consecutive levels &mdash; their own <b>FLC</b> level
+                events, at consecutive levels &mdash; their own Proficiency Level
                 and one level higher. See the Examples section below.
-              </p>
-              <p>
-                <b>FLC</b> levels are calculated based on a combination of
-                honorable self-enforcement and your recorded performance at
-                previous CDA-recognized competitions.
               </p>
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">NEWCOMER</div>
+            <div className="Common-title">NEW COMPETITORS</div>
             <div className="Common-info">
               <p>
-                Couples may only register for events at
-                the <b>Newcomer</b> level if both members have been
-                partner-dancing for less than one year. Dance figures are
-                limited to the Bronze syllabus level.
+                If this is your first competition, calculate your Proficiency
+                Level as follows:
+              </p>
+              <p>
+                <ul>
+                  <li>
+                    If both you and your partner have been partner-dancing
+                    (including social dancing) for less than one year, your
+                    level is <b>Newcomer</b>.
+                  </li>
+                  <li>
+                    If you or your partner has more than one year of
+                    partner-dancing experience, ask other members of your
+                    dance organization
+                    or <Link to="/contact">contact us</Link> and we'll help
+                    you decide what level to register at!
+                  </li>
+                </ul>
+              </p>
+              <p>
+                The 1-year rule for Newcomer applies to <b>both</b> members of
+                every couple. Dance figures are limited to the Bronze syllabus
+                level.
               </p>
             </div>
           </div>
@@ -69,17 +89,16 @@ class Rules extends Component {
             <div className="Common-info">
               <p>
                 <b>Rookie/Veteran</b> events are designed to help new dancers gain
-                experience by dancing with a partner who is at a higher
-                skill level.
+                experience by dancing with a partner who is at a higher level.
               </p>
               <p>
                 <ul>
                   <li>
-                    A <strong>Rookie</strong> may be anyone whose <b>FLC</b> level
+                    A <strong>Rookie</strong> may be anyone whose Proficiency Level
                     is <b>Newcomer</b> or <b>Bronze</b>.
                   </li>
                   <li>
-                    A <strong>Vet</strong> may be anyone whose <b>FLC</b> level
+                    A <strong>Vet</strong> may be anyone whose Proficiency Level
                     is <b>Silver</b> or higher.
                   </li>
                 </ul>
@@ -105,16 +124,16 @@ class Rules extends Component {
               <p>
                 <ul><li>
                   If you have been ballroom dancing for less than one year
-                  and your <b>FLC</b> level is still Newcomer, you may register
+                  and your Proficiency Level is still Newcomer, you may register
                   for <strong>Newcomer</strong> and <strong>Bronze</strong> levels.
                 </li></ul>
                 <ul><li>
-                  If your <b>FLC</b> level for American Smooth Waltz
+                  If your Proficiency Level for American Smooth Waltz
                   is <strong>Silver</strong>, you may register for the Syllabus
                   American Smooth Waltz <strong>Silver</strong> and <strong>Gold</strong> events.
                 </li></ul>
                 <ul><li>
-                  If your <b>FLC</b> level for International Standard Tango
+                  If your Proficiency Level for International Standard Tango
                   is <strong>Gold</strong>, you may register for the Syllabus
                   International Standard Tango <strong>Gold</strong> event and
                   the Open International Standard
@@ -122,9 +141,23 @@ class Rules extends Component {
                 </li></ul>
               </p>
               <p>
-                See the <a href="http://www.collegiatedancesport.org/fair-level-certification/" target="_blank">CDA
-                Fair Level Certification</a> site for a complete guide on allowable
+                See the <a href="http://www.collegiatedancesport.org/fair-level-certification/" target="_blank">CDA&nbsp;Fair&nbsp;Level&nbsp;Certification</a> site
+                for more examples and a complete guide on allowable
                 registration levels.
+              </p>
+            </div>
+          </div>
+          <div className="Common-row">
+            <div className="Common-title">ATTIRE RULES</div>
+            <div className="Common-info">
+              <p>
+                Heel protectors are required while on the dance floor. There
+                will be heel protectors available for purchase on the day of
+                the competition at the registration table.
+              </p>
+              <p>
+                Please wear dance shorts under your dress or skirt. Dance
+                shorts must be a color other than nude.
               </p>
             </div>
           </div>
@@ -132,7 +165,7 @@ class Rules extends Component {
             <div className="Common-title">COSTUMES</div>
             <div className="Common-info">
               <p>
-                At the <b>Newcomer</b>, <b>Bronze</b>, and <b>Silver</b> levels,
+                In <b>Newcomer</b>, <b>Bronze</b>, and <b>Silver</b> events,
                 the following costume elements are not allowed:
               </p>
               <p>
@@ -145,11 +178,10 @@ class Rules extends Component {
                 </ul>
               </p>
               <p>
-                At these levels, costumes will be judged allowable or not by
-                the invigilator. If you are unsure whether your attire is
-                allowed, bring other options that you can change into at
-                the competition, and <Link to="/contact">contact us</Link> to
-                check beforehand.
+                Costumes will be judged allowable or not by the invigilator.
+                If you are unsure whether your attire is allowed, bring
+                other options to change into at the competition, and you
+                can <Link to="/contact">contact us</Link> to check beforehand.
               </p>
               <p>
                 There are no costume restrictions at <b>Rookie/Vet</b> and
@@ -162,10 +194,6 @@ class Rules extends Component {
                 the invigilator can still require competitors to remove
                 specific accessories if deemed inappropriate for the
                 competition.)
-              </p>
-              <p>
-                Please wear dance shorts under your dress or skirt. Dance
-                shorts must be a color other than nude.
               </p>
             </div>
           </div>

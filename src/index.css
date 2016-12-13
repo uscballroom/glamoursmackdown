@@ -77,7 +77,8 @@ p {
   margin-bottom: 12px;
 }
 .Common-title {
-  font-family: 'The Bold Font';
+  /*font-family: 'The Bold Font';*/
+  font-weight: 600;
   font-size: 16px;
   color: #FFF5B8;
   letter-spacing: 0.5px;
@@ -98,7 +99,7 @@ p {
     text-align: right;
     padding-top: 1px;
     padding-right: 6px;
-    flex: 0 0 120px;
+    flex: 0 0 128px;
   }
   .Common-info {
     flex: 1;

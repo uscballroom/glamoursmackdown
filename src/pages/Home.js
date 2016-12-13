@@ -12,12 +12,10 @@ class Home extends Component {
               <div className="Common-title">WHEN</div>
               <div className="Common-info">
                 <p>
+                  <strong>Saturday&nbsp;February&nbsp;18,&nbsp;2017</strong><br/>
                   <div className="Home-time-row">
-                    <div className="Home-time-activity"><strong>Saturday&nbsp;February&nbsp;18,&nbsp;2017</strong></div>
-                    <div className="Home-time-row">
-                      <div className="Home-time-activity"><b>8:00am</b>&nbsp;&nbsp;&nbsp;doors open</div>
-                      <div className="Home-time-activity"><b>9:00am</b>&nbsp;&nbsp;&nbsp;dancing starts</div>
-                    </div>
+                    <div className="Home-time-col">8:00am&nbsp;&nbsp;&nbsp;doors open</div>
+                    <div className="Home-time-col">9:00am&nbsp;&nbsp;&nbsp;dancing starts</div>
                   </div>
                 </p>
               </div>
