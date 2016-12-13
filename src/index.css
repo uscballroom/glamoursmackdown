@@ -68,6 +68,11 @@ p {
   margin-bottom: 14px;
 }
 
+h1 {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 
 
 .Common-row {
@@ -97,7 +102,7 @@ p {
   }
   .Common-title {
     text-align: right;
-    padding-top: 1px;
+    padding-top: 3px;
     padding-right: 6px;
     flex: 0 0 128px;
   }

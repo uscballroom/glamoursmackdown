@@ -79,7 +79,7 @@ class Events extends Component {
       <div className="Events">
         <div className="container">
           <div className="Common-row">
-            <div className="Common-title">TENTATIVE SCHEDULE</div>
+            <h1 className="Common-title">TENTATIVE SCHEDULE</h1>
             <div className="Common-info">
               <p>
                 {this._schedule.map(item => (
@@ -92,7 +92,7 @@ class Events extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">LIST OF EVENTS</div>
+            <h1 className="Common-title">LIST OF EVENTS</h1>
             <div className="Common-info">
               <p>
                 All of the available Glamour Smackdown events are listed below,
@@ -115,13 +115,13 @@ class Events extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">SYLLABUS EVENTS</div>
+            <h1 className="Common-title">SYLLABUS EVENTS</h1>
             <div className="Common-info">
               {this._syllabusEventsByStyle.map(this._mapRenderStyleEvents)}
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">OTHER EVENTS</div>
+            <h1 className="Common-title">OTHER EVENTS</h1>
             <div className="Common-info">
               {this._nightclubEventsByStyle.map(this._mapRenderStyleEvents)}
               <div className="Events-eventlist-style">
@@ -130,7 +130,7 @@ class Events extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">OPEN EVENTS</div>
+            <h1 className="Common-title">OPEN EVENTS</h1>
             <div className="Common-info">
               {this._openEventsByStyle.map(this._mapRenderStyleEvents)}
             </div>

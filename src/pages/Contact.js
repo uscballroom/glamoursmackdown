@@ -8,7 +8,7 @@ class Contact extends Component {
       <div className="Contact">
         <div className="container">
           <div className="Common-row">
-            <div className="Common-title">FACEBOOK EVENT</div>
+            <h1 className="Common-title">FACEBOOK EVENT</h1>
             <div className="Common-info">
               <p>
                 Join the <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Glamour Smackdown event on Facebook</a> to receive updates
@@ -17,7 +17,7 @@ class Contact extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">CONTACT US</div>
+            <h1 className="Common-title">CONTACT US</h1>
             <div className="Common-info">
               <p>
                 Do not hesitate to contact us via email or Facebook message
@@ -31,7 +31,7 @@ class Contact extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">EMAIL</div>
+            <h1 className="Common-title">EMAIL</h1>
             <div className="Common-info">
               <p>
                 <a href="mailto:ballroomusc@gmail.com" target="_blank">ballroomusc@gmail.com</a>
@@ -39,7 +39,7 @@ class Contact extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">FACEBOOK</div>
+            <h1 className="Common-title">FACEBOOK</h1>
             <div className="Common-info">
               <p>
                 <a href="https://www.facebook.com/USCBallroom/" target="_blank">SC Ballroom Dance Team Facebook page</a>
@@ -47,7 +47,7 @@ class Contact extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">SC BALLROOM WEBSITE</div>
+            <h1 className="Common-title">SC&nbsp;BALLROOM WEBSITE</h1>
             <div className="Common-info">
               <p>
                 <a href="http://uscballroom.org" target="_blank">uscballroom.org</a>

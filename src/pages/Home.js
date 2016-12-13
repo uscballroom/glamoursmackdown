@@ -9,7 +9,7 @@ class Home extends Component {
         <div className="Common-top-section">
           <div className="container">
             <div className="Common-row">
-              <div className="Common-title">WHEN</div>
+              <h1 className="Common-title">WHEN</h1>
               <div className="Common-info">
                 <p>
                   <strong>Saturday&nbsp;February&nbsp;18,&nbsp;2017</strong><br/>
@@ -21,7 +21,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="Common-row">
-              <div className="Common-title">WHERE</div>
+              <h1 className="Common-title">WHERE</h1>
               <div className="Common-info">
                 <p>
                   <strong>Tutor Campus Center Grand Ballroom</strong><br/>
@@ -32,7 +32,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="Common-row">
-              <div className="Common-title">WHAT</div>
+              <h1 className="Common-title">WHAT</h1>
               <div className="Common-info">
                 <p>
                   The USC Glamour Smackdown is the most extravagant of all
@@ -47,7 +47,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="Common-row">
-              <div className="Common-title">ABOUT THE THEME</div>
+              <h1 className="Common-title">ABOUT THE THEME</h1>
               <div className="Common-info">
                 <p>
                   Dancesport sits at the crossroads of two wildly different
@@ -59,7 +59,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="Common-row">
-              <div className="Common-title">REGISTRATION</div>
+              <h1 className="Common-title">REGISTRATION</h1>
               <div className="Common-info">
                 <p><strong>Registration Deadline: Friday,&nbsp;Feb.&nbsp;3,&nbsp;2017</strong></p>
                 <p className="Home-register-link">

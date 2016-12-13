@@ -10,7 +10,7 @@ class Travel extends Component {
       <div className="Travel">
         <div className="container">
           <div className="Common-row">
-            <div className="Common-title">COMPETITION LOCATION</div>
+            <h1 className="Common-title">COMPETITION LOCATION</h1>
             <div className="Common-info">
               <p>
                 <strong>Tutor Campus Center Grand Ballroom</strong><br/>
@@ -21,7 +21,7 @@ class Travel extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">CAMPUS HOURS</div>
+            <h1 className="Common-title">CAMPUS HOURS</h1>
             <div className="Common-info">
               <p>
                 If you need to enter campus before 6am or after 9pm,
@@ -34,7 +34,7 @@ class Travel extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">PARKING</div>
+            <h1 className="Common-title">PARKING</h1>
             <div className="Common-info">
               <p><ul><li>
                 Recommended closest on-campus parking:<br/>
@@ -56,7 +56,7 @@ class Travel extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">PUBLIC TRANSIT</div>
+            <h1 className="Common-title">PUBLIC TRANSIT</h1>
             <div className="Common-info">
               <p>
                 Take the Metro <strong>Expo Line</strong> train to
@@ -71,7 +71,7 @@ class Travel extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">HOTELS</div>
+            <h1 className="Common-title">HOTELS</h1>
             <div className="Common-info">
               <p>
                 We recommend these hotels near campus:
@@ -108,7 +108,7 @@ class Travel extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">FOOD & DRINK</div>
+            <h1 className="Common-title">FOOD & DRINK</h1>
             <div className="Common-info">
               <p>
                 We recommend these 6 fast-food, dessert, and café options
@@ -167,7 +167,7 @@ class Travel extends Component {
             </div>
           </div>
           <div className="Common-row">
-            <div className="Common-title">MAP</div>
+            <h1 className="Common-title">MAP</h1>
             <div className="Common-info">
               <p>
                 See the map below
