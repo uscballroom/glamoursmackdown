@@ -87,6 +87,7 @@ h1 {
   font-size: 16px;
   color: #FFF5B8;
   letter-spacing: 0.5px;
+  margin-bottom: 2px;
 }
 .Common-info {
   padding-left: 24px;
@@ -104,6 +105,7 @@ h1 {
     text-align: right;
     padding-top: 3px;
     padding-right: 6px;
+    margin-bottom: 0;
     flex: 0 0 128px;
   }
   .Common-info {
