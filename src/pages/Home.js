@@ -18,6 +18,7 @@ class Home extends Component {
                     <div className="Home-time-col">8:00am&nbsp;&nbsp;&nbsp;doors open</div>
                     <div className="Home-time-col">9:00am&nbsp;&nbsp;&nbsp;dancing starts</div>
                   </div>
+                  <Link to="/events">Click here for the full schedule</Link>
                 </p>
               </div>
             </section>
@@ -27,8 +28,7 @@ class Home extends Component {
                 <p>
                   <h3>Tutor Campus Center Grand Ballroom</h3>
                   University of Southern California<br/>
-                  3607 Trousdale Pkwy<br/>
-                  Los Angeles, CA 90089
+                  <Link to="/travel">Click here for parking and travel recommendations</Link>
                 </p>
               </div>
             </section>
@@ -40,21 +40,8 @@ class Home extends Component {
                   collegiate ballroom dance competitions! Bring your boas,
                   bling, bow ties, and most importantly your best ballroom
                   dancing to amaze your adoring fans and knock out your
-                  opponents!
-                </p>
-                <p>
-                  Let the countdown to the smackdown begin!
-                </p>
-              </div>
-            </section>
-            <section>
-              <h1>ABOUT THE THEME</h1>
-              <div>
-                <p>
-                  Dancesport is both flashy and fierce, both cordial and
-                  cutthroat. At the Glamour Smackdown, dancers come together
-                  to experience intense competition but also the glamour,
-                  beauty, and joy of ballroom dancing!
+                  opponents!<br/>
+                  <Link to="/rules">Click here for the competition rules</Link>
                 </p>
               </div>
             </section>
@@ -83,6 +70,17 @@ class Home extends Component {
                     <li><b>$40</b> Unlimited event entries</li>
                     <li><b>$20</b> Nightclub and/or Performance Team events only</li>
                   </ul>
+                </p>
+              </div>
+            </section>
+            <section>
+              <h1>ABOUT THE THEME</h1>
+              <div>
+                <p>
+                  Dancesport is both flashy and fierce, both cordial and
+                  cutthroat. At the Glamour Smackdown, dancers come together
+                  to experience not only intense competition but also the
+                  glamour, beauty, and joy of ballroom dancing!
                 </p>
               </div>
             </section>

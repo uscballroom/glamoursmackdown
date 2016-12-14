@@ -148,6 +148,27 @@ class Rules extends Component {
             </div>
           </section>
           <section>
+            <h1>INVIGILATION</h1>
+            <div>
+              <p>
+                All <b>Syllabus Events</b> (Newcomer, Bronze, Silver, Gold,
+                and Rookie/Vet) will be invigilated. We will be using either
+                NDCA or USA Dance syllabus rules (check back here for
+                updates).
+              </p>
+              <p>
+                Dance figures outside of our syllabus rules may be allowed but
+                you should <Link to="/contact">contact us</Link> to check
+                whether a particular dance figure will be allowed by our
+                invigilator.
+              </p>
+              <p>
+                All other events are open, meaning there is no restriction on
+                the dance figures that competitors can do.
+              </p>
+            </div>
+          </section>
+          <section>
             <h1>ATTIRE RULES</h1>
             <div>
               <p>
@@ -194,21 +215,6 @@ class Rules extends Component {
                 the invigilator can still require competitors to remove
                 specific accessories if deemed inappropriate for the
                 competition.)
-              </p>
-            </div>
-          </section>
-          <section>
-            <h1>INVIGILATION</h1>
-            <div>
-              <p>
-                For all <b>Syllabus Events</b> (Newcomer, Bronze, Silver, Gold,
-                and Rookie/Vet), an invigilator will be present to ensure
-                that competitors only perform dance figures appropriate for
-                the level.
-              </p>
-              <p>
-                All other events are open, meaning there is no restriction on the
-                moves that competitors can do.
               </p>
             </div>
           </section>

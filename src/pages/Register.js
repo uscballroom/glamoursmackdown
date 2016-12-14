@@ -60,11 +60,11 @@ class Register extends Component {
                   <p>
                     In order to register at the normal registration price, you
                     must fill out the online form
-                    by <b>Friday&nbsp;Feb.&nbsp;3,&nbsp;2017</b>.
+                    by <b>Friday&nbsp;Feb.&nbsp;3</b>.
                   </p>
                   <p>
                     After the late
-                    deadline, <b>Friday&nbsp;Feb.&nbsp;10,&nbsp;2017</b>,
+                    deadline, <b>Friday&nbsp;Feb.&nbsp;10</b>,
                     online registration will close and you may still register
                     at the door for events that have spaces available.
                   </p>
@@ -76,12 +76,12 @@ class Register extends Component {
                       <li>
                         If you register at the normal registration price,
                         your payment must be postmarked
-                        by <b>Friday&nbsp;Feb.&nbsp;3,&nbsp;2017</b>.
+                        by <b>Friday&nbsp;Feb.&nbsp;3</b>.
                       </li>
                       <li>
                         If you register at the late registration price,
                         you must either mail your payment (postmarked
-                        by <b>Friday&nbsp;Feb.&nbsp;10,&nbsp;2017</b>) or pay
+                        by <b>Friday&nbsp;Feb.&nbsp;10</b>) or pay
                         at the door.
                       </li>
                     </ul>
@@ -91,19 +91,16 @@ class Register extends Component {
                     <h3>SC Ballroom and Latin Dance Team</h3>
                   </p>
                   <p>
-                    Mail your payment to:
+                    Enclose the name and school/team affiliation of each person
+                    you're paying for, and mail your payment to:
                     <h3>SC Ballroom and Latin Dance Team</h3>
                     Some Office at USC<br/>
                     Los Angeles, CA 90007
                   </p>
                   <p>
-                    Enclose the name and school/team affiliation of each person
-                    you're paying for.
-                  </p>
-                  <p>
                     For group payments, print
                     the <a href="/register" target="_blank">Group Payment Form</a> and
-                    enclose it with your payment. Even for group payments,
+                    enclose it with your payment. Even with group payments,
                     each couple must fill out an online registration form.
                   </p>
                 </div></li>
