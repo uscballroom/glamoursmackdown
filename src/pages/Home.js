@@ -28,6 +28,8 @@ class Home extends Component {
                 <p>
                   <h3>Tutor Campus Center Grand Ballroom</h3>
                   University of Southern California<br/>
+                  3607 Trousdale Pkwy<br/>
+                  Los Angeles, CA 90089<br/>
                   <Link to="/travel">Click here for parking and travel recommendations</Link>
                 </p>
               </div>
