@@ -1,6 +1,7 @@
 import './Home.css';
 
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Home extends Component {
   render() {
@@ -61,11 +62,7 @@ class Home extends Component {
               <h1>REGISTRATION</h1>
               <div>
                 <h2>Registration Deadline: Friday&nbsp;Feb.&nbsp;3,&nbsp;2017</h2>
-                <p className="Home-register-link">
-                  Registration will be open soon! Join the Glamour Smackdown <a href="https://www.facebook.com/events/142139819599212/" target="_blank">Facebook event</a> to
-                  receive an update when registration opens.
-                </p>
-                {/*<p><a href="" className="Home-register-link" target="_blank">Register now</a></p>*/}
+                <p><Link to="/register" className="Home-register-link">Register now</Link></p>
                 <p>
                   <h3>Registration Prices (per person)</h3>
                   <ul>

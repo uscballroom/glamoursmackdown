@@ -33,7 +33,7 @@ class App extends Component {
                   rules
                 </Link>
                 <Link to="/contact" className="App-navigation-link" activeClassName="App-navigation-active">
-                  contact
+                  contact us
                 </Link>
               </nav>
             </div>

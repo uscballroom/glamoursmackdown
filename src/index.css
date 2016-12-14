@@ -25,6 +25,15 @@ body {
   font-size: 16px;
 }
 
+/* Hack to make ol's numbers bold. The contents of every li in every ol should
+ * be wrapped in something, such as a span or div. */
+ol > li {
+  font-weight: 700;
+}
+ol > li > * {
+  font-weight: initial;
+}
+
 strong {
   font-weight: 700;
   letter-spacing: 0.4px;
@@ -39,18 +48,9 @@ ul, ol {
   padding-left: 20px;
 }
 
-/* Hack to make ol's numbers bold. The contents of every li in every ol should
- * be wrapped in something, such as a span. */
-ol > li {
-  font-weight: 700;
-}
-ol > li > * {
-  font-weight: normal;
-}
-
 a, a:visited, a:focus {
   font-weight: 700;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.4px;
   color: #FF2050;
 }
 
@@ -67,6 +67,7 @@ a:active {
 h1, h2, h3 {
   margin: unset;
   padding: unset;
+  line-height: initial;
 }
 
 h1 {
@@ -74,7 +75,7 @@ h1 {
   font-weight: 600;
   font-size: 16px;
   color: #FFF5B8;
-  letter-spacing: 0.5px;
+  /*letter-spacing: 0.1px;*/
 }
 
 h2, h3 {
@@ -111,7 +112,6 @@ section > div {
   }
   section > h1 {
     text-align: right;
-    padding-top: 3px;
     padding-right: 6px;
     margin-bottom: 0;
     flex: 0 0 128px;
