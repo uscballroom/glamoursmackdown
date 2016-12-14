@@ -50,9 +50,13 @@ class Register extends Component {
                     Review the <Link to="/rules">rules</Link> about Proficiency
                     Levels and registration restrictions.
                   </p>
-                  <p><a href="https://goo.gl/forms/qMU6I9SvCDd4Z1Gs2" target="_blank">
-                    Click here to fill out the online registration form.
-                  </a></p>
+                  <p>
+                    <a href="https://goo.gl/forms/qMU6I9SvCDd4Z1Gs2" target="_blank">
+                      Click here to fill out the online registration form.
+                    </a> If you are competing with multiple partners for
+                    different events, fully fill out the form for each
+                    partnership.
+                  </p>
                   <p>
                     In order to register at the normal registration price, you
                     must fill out the online form
@@ -63,10 +67,6 @@ class Register extends Component {
                     deadline, <b>Friday&nbsp;Feb.&nbsp;10,&nbsp;2017</b>,
                     online registration will close and you may still register
                     at the door for events that have spaces available.
-                  </p>
-                  <p>
-                    If you are competing with multiple partners for different
-                    events, fully fill out the form for each partnership.
                   </p>
                 </div></li>
                 <li><div>
