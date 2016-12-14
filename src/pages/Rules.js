@@ -59,7 +59,7 @@ class Rules extends Component {
             <div>
               <p>
                 If this is your first competition, calculate your Proficiency
-                Level as follows:
+                Level like this:
               </p>
               <p>
                 <ul>
@@ -184,8 +184,8 @@ class Rules extends Component {
                 can <Link to="/contact">contact us</Link> to check beforehand.
               </p>
               <p>
-                There are no costume restrictions at <b>Rookie/Vet</b> and
-                at <b>Gold</b> and higher levels.
+                There are no costume restrictions in <b>Rookie/Vet</b> and
+                in <b>Gold</b> and higher levels.
               </p>
               <p>
                 You can still be glamourous in Newcomer, Bronze, and Silver!
@@ -231,12 +231,13 @@ class Rules extends Component {
               <p>
                 <ul>
                   <li>
-                    At the <b>Beginner</b> level, both dancers in a couple
-                    must have been partner-dancing for less than two years.
+                    At the <strong>Beginner</strong> level, both dancers in a
+                    couple must have been partner-dancing for less than two
+                    years.
                   </li>
                   <li>
-                    There is no restriction for registration in Nightclub
-                    events at the <b>Non-Beginner</b> level.
+                    At the <strong>Non-Beginner</strong> level, anyone may
+                    register.
                   </li>
                 </ul>
               </p>
@@ -245,9 +246,9 @@ class Rules extends Component {
                 Get creative!
               </p>
               <p>
-                There are no costume restrictions for all Nightclub events.
-                This is your chance to be especially glamourous! Or to dance
-                in pajamas.
+                There are no costume restrictions for Nightclub events. This
+                is your chance to be especially glamourous! Or to dance in
+                pajamas!
               </p>
             </div>
           </section>
@@ -256,7 +257,7 @@ class Rules extends Component {
             <div>
               <p>
                 All performance teams compete at the same level. There are no
-                registration, costume, or dance figure restrictions for
+                proficiency level, costume, or dance figure restrictions for
                 the Performance Team event.
               </p>
             </div>
