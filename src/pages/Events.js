@@ -32,11 +32,11 @@ class Events extends Component {
       { level: 'Rookie/Vet', dances: ['Waltz', 'Tango', 'Viennese\xa0Waltz', 'Slow\xa0Foxtrot', 'Quickstep'] },
     ]},
     { title: 'Syllabus American Rhythm', events: [
-      { level: 'Newcomer',   dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Mambo', 'Bolero'] },
-      { level: 'Bronze',     dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Mambo', 'Bolero'] },
-      { level: 'Silver',     dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Mambo', 'Bolero'] },
-      { level: 'Gold',       dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Mambo', 'Bolero'] },
-      { level: 'Rookie/Vet', dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Mambo', 'Bolero'] },
+      { level: 'Newcomer',   dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Bolero', 'Mambo'] },
+      { level: 'Bronze',     dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Bolero', 'Mambo'] },
+      { level: 'Silver',     dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Bolero', 'Mambo'] },
+      { level: 'Gold',       dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Bolero', 'Mambo'] },
+      { level: 'Rookie/Vet', dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Bolero', 'Mambo'] },
     ]},
     { title: 'Syllabus International Latin', events: [
       { level: 'Newcomer',   dances: ['Cha-Cha', 'Rumba', 'Samba', 'Jive'] },
@@ -121,12 +121,6 @@ class Events extends Component {
             </div>
           </section>
           <section>
-            <h1>OPEN EVENTS</h1>
-            <div>
-              {this._openEventsByStyle.map(this._mapRenderStyleEvents)}
-            </div>
-          </section>
-          <section>
             <h1>OTHER EVENTS</h1>
             <div>
               {this._nightclubEventsByStyle.map(this._mapRenderStyleEvents)}
@@ -134,6 +128,12 @@ class Events extends Component {
                 <p><strong>Performance Teams</strong></p>
                 <p>There is one event for all performance teams.</p>
               </div>
+            </div>
+          </section>
+          <section>
+            <h1>OPEN EVENTS</h1>
+            <div>
+              {this._openEventsByStyle.map(this._mapRenderStyleEvents)}
             </div>
           </section>
         </div>
