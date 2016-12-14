@@ -64,14 +64,27 @@ a:active {
   border-radius: 0.5em;
 }
 
-p {
-  margin-bottom: 14px;
+h1, h2, h3 {
+  margin: unset;
+  padding: unset;
 }
 
 h1 {
-  display: block;
-  margin: 0;
-  padding: 0;
+  /*font-family: 'The Bold Font';*/
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFF5B8;
+  letter-spacing: 0.5px;
+}
+
+h2, h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+p, h2 {
+  margin-bottom: 14px;
 }
 
 
@@ -82,11 +95,6 @@ section {
   margin-bottom: 12px;
 }
 section > h1 {
-  /*font-family: 'The Bold Font';*/
-  font-weight: 600;
-  font-size: 16px;
-  color: #FFF5B8;
-  letter-spacing: 0.5px;
   margin-bottom: 2px;
 }
 section > div {

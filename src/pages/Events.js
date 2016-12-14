@@ -131,8 +131,10 @@ class Events extends Component {
             <div>
               {this._nightclubEventsByStyle.map(this._mapRenderStyleEvents)}
               <div className="Events-eventlist-style">
-                <p><strong>Performance Teams</strong></p>
-                <p>There is one event for all performance teams.</p>
+                <h2>Performance Teams</h2>
+                <p>
+                  All performance teams compete against each other in one event.
+                </p>
               </div>
             </div>
           </section>
@@ -150,7 +152,7 @@ class Events extends Component {
   _mapRenderStyleEvents(style, style_i) {
     return (
       <div className="Events-eventlist-style" key={style.title}>
-        <p><strong>{style.title}</strong></p>
+        <h2>{style.title}</h2>
         {style.events.map((event, event_i) => (
           <div className="Events-eventlist-row" key={event_i}>
             <div className="Events-eventlist-level-column">{event.level}</div>

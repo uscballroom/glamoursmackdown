@@ -66,7 +66,7 @@ class Rules extends Component {
                   <li>
                     If both you and your partner have been partner-dancing
                     (including social dancing) for less than one year, your
-                    level is <b>Newcomer</b>.
+                    level is <strong>Newcomer</strong>.
                   </li>
                   <li>
                     If you or your partner has more than one year of

@@ -13,7 +13,7 @@ class Travel extends Component {
             <h1>COMPETITION LOCATION</h1>
             <div>
               <p>
-                <strong>Tutor Campus Center Grand Ballroom</strong><br/>
+                <h3>Tutor Campus Center Grand Ballroom</h3>
                 University of Southern California<br/>
                 3607 Trousdale Pkwy<br/>
                 Los Angeles, CA 90089
@@ -38,13 +38,13 @@ class Travel extends Component {
             <div>
               <p><ul><li>
                 Recommended closest on-campus parking:<br/>
-                <strong>Parking Structure X</strong><br/>
+                <h3>Parking Structure X</h3>
                 699 USC McCarthy Way<br/>
                 Los Angeles, CA 90089
               </li></ul></p>
               <p><ul><li>
                 Alternate on-campus parking (if you require an elevator):<br/>
-                <strong>Parking Structure A</strong><br/>
+                <h3>Parking Structure A</h3>
                 3667 McClintock Avenue<br/>
                 Los Angeles, CA 90089
               </li></ul></p>
@@ -78,7 +78,7 @@ class Travel extends Component {
               </p>
               <p><ul><li>
                 <p>
-                  <strong>Radisson Hotel Los Angeles Midtown at USC</strong><br/>
+                  <h3>Radisson Hotel Los Angeles Midtown at USC</h3>
                   3540 South Figueroa Street<br/>
                   Los Angeles, CA 90007<br/>
                   <a href="https://www.radisson.com/los-angeles-hotel-ca-90007/cafiguer" target="_blank">
@@ -92,7 +92,7 @@ class Travel extends Component {
               </li></ul></p>
               <p><ul><li>
                 <p>
-                  <strong>Vagabond Inn</strong><br/>
+                  <h3>Vagabond Inn</h3>
                   3101 South Figueroa Street<br/>
                   Los Angeles, CA 90007<br/>
                   <a href="http://www.vagabondinn.com/vagabond-inn-los-angeles-at-usc" target="_blank">
@@ -117,7 +117,7 @@ class Travel extends Component {
                 on-campus options (#1-3).
               </p>
               <p>
-                <strong>#1</strong> Tutor Campus Center
+                <strong>#1 Tutor Campus Center</strong>
                 <ul>
                   <li>Coffee Bean & Tea Leaf&nbsp;&nbsp; <b>(open 9am-3pm)</b></li>
                   <li>California Pizza Kitchen&nbsp;&nbsp; <b>(open 11am-3pm)</b></li>
@@ -126,20 +126,20 @@ class Travel extends Component {
                 </ul>
               </p>
               <p>
-                <strong>#2</strong> Trojan Grounds at Birnkrant Resident Hall
+                <strong>#2 Trojan Grounds</strong> (at Birnkrant Resident Hall)
                 <ul>
                   <li>Starbucks&nbsp;&nbsp; <b>(open 24hr)</b></li>
                 </ul>
               </p>
               <p>
-                <strong>#3</strong> Ground Zero Coffee House, behind Trojan Resident Hall
+                <strong>#3 Ground Zero Cafe</strong> (behind Trojan Resident Hall)
                 <ul>
                   <li>Great milkshakes, coffee, and tea
                   drinks&nbsp;&nbsp; <b>(open 1pm-8pm)</b></li>
                 </ul>
               </p>
               <p>
-                <strong>#4</strong> Gateway apartment building
+                <strong>#4 Gateway apartment building</strong>
                 <ul>
                   <li>Dog Haus</li>
                   <li>Blaze Pizza</li>
@@ -149,7 +149,7 @@ class Travel extends Component {
                 </ul>
               </p>
               <p>
-                <strong>#5</strong> Icon Plaza apartment building
+                <strong>#5 Icon Plaza apartment building</strong>
                 <ul>
                   <li>Starbucks</li>
                   <li>Pizza Studio</li>
@@ -157,7 +157,7 @@ class Travel extends Component {
                 </ul>
               </p>
               <p>
-                <strong>#6</strong> Tuscany apartment building
+                <strong>#6 Tuscany apartment building</strong>
                 <ul>
                   <li>Coffee Bean & Tea Leaf</li>
                   <li>Chipotle</li>
