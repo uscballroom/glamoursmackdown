@@ -5,16 +5,17 @@ import { Link } from 'react-router';
 
 class Events extends Component {
   _schedule = [
-    { time: '8:00am',    activity: 'Doors open' },
-    { time: '9:00am',    activity: 'Syllabus American Smooth' },
-    { time: '11:00am',   activity: 'Syllabus International Standard' },
-    { time: '1:00pm',    activity: 'Syllabus American Rhythm' },
-    { time: '3:00pm',    activity: 'Syllabus International Latin' },
-    { time: '5:00pm',    activity: 'Dinner break' },
-    { time: '6:00pm',    activity: 'Nightclub events' },
-    { time: '7:00pm',    activity: 'Performance Team events' },
-    { time: '7:30pm',    activity: 'Open events' },
-    { time: '9:30pm',    activity: 'Team Match' },
+    { time: <span><b>8:00</b>am</span>,  activity: 'Doors open' },
+    { time: <span><b>9:00</b>am</span>,  activity: 'Syllabus American Smooth' },
+    { time: <span><b>10:45</b>am</span>, activity: 'Syllabus International Standard' },
+    { time: <span><b>12:45</b>pm</span>, activity: 'Judges break, Social dancing' },
+    { time: <span><b>1:15</b>pm</span>,  activity: 'Syllabus American Rhythm' },
+    { time: <span><b>3:00</b>pm</span>,  activity: 'Syllabus International Latin' },
+    { time: <span><b>5:00</b>pm</span>,  activity: 'Dinner break' },
+    { time: <span><b>6:00</b>pm</span>,  activity: 'Nightclub events' },
+    { time: <span><b>7:00</b>pm</span>,  activity: 'Performance Team events' },
+    { time: <span><b>7:30</b>pm</span>,  activity: 'Open events' },
+    { time: <span><b>9:30</b>pm</span>,  activity: 'Team Match' },
   ];
   _syllabusEventsByStyle = [
     { title: 'Syllabus American Smooth', events: [
@@ -53,18 +54,18 @@ class Events extends Component {
       { level: 'Champ',     dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Viennese\xa0Waltz'] },
     ]},
     { title: 'Open International Standard', events: [
-      { level: 'Novice',    dances: ['Waltz\xa0/ Tango\xa0/ Quickstep', 'Foxtrot\xa0/ Viennese\xa0Waltz'] },
-      { level: 'Pre-champ', dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Quickstep', 'Viennese\xa0Waltz'] },
+      { level: 'Novice',    dances: ['Waltz\xa0/ Tango\xa0/ Quickstep'] },
+      { level: 'Pre-champ', dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Quickstep'] },
       { level: 'Champ',     dances: ['Waltz\xa0/ Tango\xa0/ Viennese\xa0Waltz\xa0/ Foxtrot\xa0/ Quickstep'] },
     ]},
     { title: 'Open American Rhythm', events: [
-      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing', 'Bolero\xa0/ Mambo'] },
-      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing\xa0/ Bolero', 'Mambo'] },
+      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing'] },
+      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing\xa0/ Bolero'] },
       { level: 'Champ',     dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing\xa0/ Bolero\xa0/ Mambo'] },
     ]},
     { title: 'Open International Latin', events: [
-      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba', 'Paso\xa0Doble\xa0/ Jive'] },
-      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Jive', 'Paso\xa0Doble'] },
+      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba'] },
+      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Jive'] },
       { level: 'Champ',     dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Paso\xa0Doble\xa0/ Jive'] },
     ]},
   ];
@@ -82,12 +83,17 @@ class Events extends Component {
             <h1>TENTATIVE SCHEDULE</h1>
             <div>
               <p>
-                {this._schedule.map(item => (
-                  <div className="Events-schedule-row" key={item.time}>
-                    <div className="Events-schedule-time"><b>{item.time}</b></div>
+                {this._schedule.map((item, i) => (
+                  <div className="Events-schedule-row" key={i}>
+                    <div className="Events-schedule-time">{item.time}</div>
                     <div className="Events-schedule-activity">{item.activity}</div>
                   </div>
                 ))}
+              </p>
+              <p>
+                During the Dinner Break, no one will be allowed in the ballroom.
+                There will be a nearby room reserved for competitors to occupy
+                during this time.
               </p>
             </div>
           </section>
