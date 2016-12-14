@@ -8,9 +8,9 @@ class Rules extends Component {
     return (
       <div className="Rules">
         <div className="container">
-          <div className="Common-row">
-            <h1 className="Common-title">PROFICIENCY LEVELS</h1>
-            <div className="Common-info">
+          <section>
+            <h1>PROFICIENCY LEVELS</h1>
+            <div>
               <p>
                 The USC Glamour Smackdown is
                 a <a href="http://www.collegiatedancesport.org/" target="_blank">Collegiate&nbsp;Dancesport&nbsp;Association</a>&nbsp;(CDA)
@@ -53,10 +53,10 @@ class Rules extends Component {
                 and one level higher. See the Examples section below.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">NEW COMPETITORS</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>NEW COMPETITORS</h1>
+            <div>
               <p>
                 If this is your first competition, calculate your Proficiency
                 Level as follows:
@@ -83,10 +83,10 @@ class Rules extends Component {
                 level.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">ROOKIE&nbsp;/&nbsp;VET</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>ROOKIE&nbsp;/&nbsp;VET</h1>
+            <div>
               <p>
                 <b>Rookie/Veteran</b> events are designed to help new dancers gain
                 experience by dancing with a partner who is at a higher level.
@@ -114,10 +114,10 @@ class Rules extends Component {
                 syllabus level.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">EXAMPLES</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>EXAMPLES</h1>
+            <div>
               <p>
                 For example:
               </p>
@@ -146,10 +146,10 @@ class Rules extends Component {
                 registration levels.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">ATTIRE RULES</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>ATTIRE RULES</h1>
+            <div>
               <p>
                 Heel protectors are required while on the dance floor. There
                 will be heel protectors available for purchase on the day of
@@ -160,10 +160,10 @@ class Rules extends Component {
                 shorts must be a color other than nude.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">COSTUMES</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>COSTUMES</h1>
+            <div>
               <p>
                 In <b>Newcomer</b>, <b>Bronze</b>, and <b>Silver</b> events,
                 the following costume elements are not allowed:
@@ -196,10 +196,10 @@ class Rules extends Component {
                 competition.)
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">INVIGILATION</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>INVIGILATION</h1>
+            <div>
               <p>
                 For all <b>Syllabus Events</b> (Newcomer, Bronze, Silver, Gold,
                 and Rookie/Vet), an invigilator will be present to ensure
@@ -211,19 +211,19 @@ class Rules extends Component {
                 moves that competitors can do.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">PHOTO&nbsp;& VIDEO</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>PHOTO&nbsp;& VIDEO</h1>
+            <div>
               <p>
                 Photography and videography are allowed. Our beautiful venue is
                 the perfect backdrop for your glamourous dancing!
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">NIGHTCLUB</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>NIGHTCLUB</h1>
+            <div>
               <p>
                 Nightclub events at the Glamour Smackdown have two
                 levels: <b>Beginner</b> and <b>Non-Beginner</b>.
@@ -250,17 +250,17 @@ class Rules extends Component {
                 in pajamas.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">PERFORMANCE TEAM</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>PERFORMANCE TEAM</h1>
+            <div>
               <p>
                 All performance teams compete at the same level. There are no
                 registration, costume, or dance figure restrictions for
                 the Performance Team event.
               </p>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     );

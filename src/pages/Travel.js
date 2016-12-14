@@ -9,9 +9,9 @@ class Travel extends Component {
     return (
       <div className="Travel">
         <div className="container">
-          <div className="Common-row">
-            <h1 className="Common-title">COMPETITION LOCATION</h1>
-            <div className="Common-info">
+          <section>
+            <h1>COMPETITION LOCATION</h1>
+            <div>
               <p>
                 <strong>Tutor Campus Center Grand Ballroom</strong><br/>
                 University of Southern California<br/>
@@ -19,10 +19,10 @@ class Travel extends Component {
                 Los Angeles, CA 90089
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">CAMPUS HOURS</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>CAMPUS HOURS</h1>
+            <div>
               <p>
                 If you need to enter campus before 6am or after 9pm,
                 email <a href="mailto:ballroomusc@gmail.com" target="_blank">
@@ -32,10 +32,10 @@ class Travel extends Component {
                 the competition, check back here for a phone number to call.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">PARKING</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>PARKING</h1>
+            <div>
               <p><ul><li>
                 Recommended closest on-campus parking:<br/>
                 <strong>Parking Structure X</strong><br/>
@@ -54,10 +54,10 @@ class Travel extends Component {
               <p>Metered street parking near campus may be available but is
               mostly limited due to construction.</p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">PUBLIC TRANSIT</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>PUBLIC TRANSIT</h1>
+            <div>
               <p>
                 Take the Metro <strong>Expo Line</strong> train to
                 the <strong>Expo Park/USC</strong> station and cross the street
@@ -69,10 +69,10 @@ class Travel extends Component {
                 you can get to Union Station via the Red or Purple lines.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">HOTELS</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>HOTELS</h1>
+            <div>
               <p>
                 We recommend these hotels near campus:
               </p>
@@ -106,10 +106,10 @@ class Travel extends Component {
                 </p>
               </li></ul></p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">FOOD & DRINK</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>FOOD & DRINK</h1>
+            <div>
               <p>
                 We recommend these 6 fast-food, dessert, and café options
                 near Glamour Smackdown. See the map below for their locations.
@@ -165,10 +165,10 @@ class Travel extends Component {
                 </ul>
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">MAP</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>MAP</h1>
+            <div>
               <p>
                 See the map below
                 or <a href="https://www.google.com/maps/d/viewer?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM" target="_blank">
@@ -180,7 +180,7 @@ class Travel extends Component {
                 directions from hotels, transit, and parking.
               </p>
             </div>
-          </div>
+          </section>
           <div className="Travel-map-capsule">
             <iframe
               className="Travel-map"

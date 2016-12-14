@@ -39,11 +39,33 @@ class Events extends Component {
       { level: 'Rookie/Vet', dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Mambo', 'Bolero'] },
     ]},
     { title: 'Syllabus International Latin', events: [
-      { level: 'Newcomer',   dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
+      { level: 'Newcomer',   dances: ['Cha-Cha', 'Rumba', 'Samba', 'Jive'] },
       { level: 'Bronze',     dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
       { level: 'Silver',     dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
       { level: 'Gold',       dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
       { level: 'Rookie/Vet', dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
+    ]},
+  ];
+  _openEventsByStyle = [
+    { title: 'Open American Smooth', events: [
+      { level: 'Novice',    dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot'] },
+      { level: 'Pre-champ', dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Viennese\xa0Waltz'] },
+      { level: 'Champ',     dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Viennese\xa0Waltz'] },
+    ]},
+    { title: 'Open International Standard', events: [
+      { level: 'Novice',    dances: ['Waltz\xa0/ Tango\xa0/ Quickstep', 'Foxtrot\xa0/ Viennese\xa0Waltz'] },
+      { level: 'Pre-champ', dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Quickstep', 'Viennese\xa0Waltz'] },
+      { level: 'Champ',     dances: ['Waltz\xa0/ Tango\xa0/ Viennese\xa0Waltz\xa0/ Foxtrot\xa0/ Quickstep'] },
+    ]},
+    { title: 'Open American Rhythm', events: [
+      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing', 'Bolero\xa0/ Mambo'] },
+      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing\xa0/ Bolero', 'Mambo'] },
+      { level: 'Champ',     dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing\xa0/ Bolero\xa0/ Mambo'] },
+    ]},
+    { title: 'Open International Latin', events: [
+      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba', 'Paso\xa0Doble\xa0/ Jive'] },
+      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Jive', 'Paso\xa0Doble'] },
+      { level: 'Champ',     dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Paso\xa0Doble\xa0/ Jive'] },
     ]},
   ];
   _nightclubEventsByStyle = [
@@ -52,35 +74,13 @@ class Events extends Component {
       { level: 'Non-Beginner', dances: ['Salsa', 'Merengue', 'Hustle', 'West\xa0Coast\xa0Swing', 'Nightclub\xa0Twostep', 'Blues', 'Argentine\xa0Tango', 'Lindy\xa0Hop'] },
     ]},
   ];
-  _openEventsByStyle = [
-    { title: 'Open American Smooth', events: [
-      { level: 'Novice',    dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot', 'Viennese\xa0Waltz'] },
-      { level: 'Pre-champ', dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Viennese\xa0Waltz'] },
-      { level: 'Champ',     dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Viennese\xa0Waltz'] },
-    ]},
-    { title: 'Open International Standard', events: [
-      { level: 'Novice',    dances: ['Waltz\xa0/ Foxtrot\xa0/ Quickstep', 'Tango\xa0/ Viennese\xa0Waltz'] },
-      { level: 'Pre-champ', dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Quickstep', 'Viennese\xa0Waltz'] },
-      { level: 'Champ',     dances: ['Waltz\xa0/ Tango\xa0/ Foxtrot\xa0/ Quickstep\xa0/ Viennese\xa0Waltz'] },
-    ]},
-    { title: 'Open American Rhythm', events: [
-      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing', 'Mambo\xa0/ Bolero'] },
-      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing\xa0/ Bolero', 'Mambo'] },
-      { level: 'Champ',     dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing\xa0/ Mambo\xa0/ Bolero'] },
-    ]},
-    { title: 'Open International Latin', events: [
-      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba', 'Paso\xa0Doble\xa0/ Jive'] },
-      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Jive', 'Paso\xa0Doble'] },
-      { level: 'Champ',     dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Paso\xa0Doble\xa0/ Jive'] },
-    ]},
-  ];
   render() {
     return (
       <div className="Events">
         <div className="container">
-          <div className="Common-row">
-            <h1 className="Common-title">TENTATIVE SCHEDULE</h1>
-            <div className="Common-info">
+          <section>
+            <h1>TENTATIVE SCHEDULE</h1>
+            <div>
               <p>
                 {this._schedule.map(item => (
                   <div className="Events-schedule-row" key={item.time}>
@@ -90,10 +90,10 @@ class Events extends Component {
                 ))}
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">LIST OF EVENTS</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>LIST OF EVENTS</h1>
+            <div>
               <p>
                 All of the available Glamour Smackdown events are listed below,
                 in schedule order. Note: the order of individual levels and dances
@@ -113,28 +113,29 @@ class Events extends Component {
                 by slashes.
               </p>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">SYLLABUS EVENTS</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>SYLLABUS EVENTS</h1>
+            <div>
               {this._syllabusEventsByStyle.map(this._mapRenderStyleEvents)}
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">OTHER EVENTS</h1>
-            <div className="Common-info">
+          </section>
+          <section>
+            <h1>OPEN EVENTS</h1>
+            <div>
+              {this._openEventsByStyle.map(this._mapRenderStyleEvents)}
+            </div>
+          </section>
+          <section>
+            <h1>OTHER EVENTS</h1>
+            <div>
               {this._nightclubEventsByStyle.map(this._mapRenderStyleEvents)}
               <div className="Events-eventlist-style">
                 <p><strong>Performance Teams</strong></p>
+                <p>There is one event for all performance teams.</p>
               </div>
             </div>
-          </div>
-          <div className="Common-row">
-            <h1 className="Common-title">OPEN EVENTS</h1>
-            <div className="Common-info">
-              {this._openEventsByStyle.map(this._mapRenderStyleEvents)}
-            </div>
-          </div>
+          </section>
         </div>
       </div>
     );

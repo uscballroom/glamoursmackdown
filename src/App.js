@@ -10,7 +10,7 @@ class App extends Component {
     const expanded = (this.props.location.pathname === '/');
     return (
       <div className="App">
-        <div className={'App-header' + (expanded ? ' App-header-expanded' : '')}>
+        <header className={'App-header' + (expanded ? ' App-header-expanded' : '')}>
           <div className="container">
             <img src={heroImage} alt="Glamour Smackdown" className="App-header-image"/>
           </div>
@@ -35,10 +35,10 @@ class App extends Component {
               </nav>
             </div>
           </div>
-        </div>
-        <div className="App-page">
+        </header>
+        <main className="App-page">
           {this.props.children}
-        </div>
+        </main>
       </div>
     );
   }

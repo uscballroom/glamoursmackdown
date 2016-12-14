@@ -75,13 +75,13 @@ h1 {
 }
 
 
-.Common-row {
+section {
   display: flex;
   flex-direction: column;
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.Common-title {
+section > h1 {
   /*font-family: 'The Bold Font';*/
   font-weight: 600;
   font-size: 16px;
@@ -89,26 +89,26 @@ h1 {
   letter-spacing: 0.5px;
   margin-bottom: 2px;
 }
-.Common-info {
+section > div {
   padding-left: 24px;
 }
 
 
 
 @media (min-width: 520px) {
-  .Common-row {
+  section {
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 12px;
   }
-  .Common-title {
+  section > h1 {
     text-align: right;
     padding-top: 3px;
     padding-right: 6px;
     margin-bottom: 0;
     flex: 0 0 128px;
   }
-  .Common-info {
+  section > div {
     flex: 1;
   }
 }
