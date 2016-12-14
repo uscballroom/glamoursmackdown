@@ -20,6 +20,9 @@ class App extends Component {
                 <IndexLink to="/" className="App-navigation-link" activeClassName="App-navigation-active">
                   home
                 </IndexLink>
+                <Link to="/register" className="App-navigation-link" activeClassName="App-navigation-active">
+                  register
+                </Link>
                 <Link to="/travel" className="App-navigation-link" activeClassName="App-navigation-active">
                   location&nbsp;&amp;&nbsp;travel
                 </Link>

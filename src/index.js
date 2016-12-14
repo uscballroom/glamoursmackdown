@@ -7,8 +7,9 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
 import App from './App';
 import Home from './pages/Home';
-import Events from './pages/Events';
+import Register from './pages/Register';
 import Travel from './pages/Travel';
+import Events from './pages/Events';
 import Rules from './pages/Rules';
 import Contact from './pages/Contact';
 
@@ -26,8 +27,9 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={App} onChange={_scrollToTop}>
       <IndexRoute component={Home}/>
-      <Route path="events" component={Events}/>
+      <Route path="register" component={Register}/>
       <Route path="travel" component={Travel}/>
+      <Route path="events" component={Events}/>
       <Route path="rules" component={Rules}/>
       <Route path="contact" component={Contact}/>
     </Route>
