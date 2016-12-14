@@ -50,8 +50,7 @@ class Home extends Component {
               <h1>ABOUT THE THEME</h1>
               <div>
                 <p>
-                  Dancesport sits at the crossroads of two wildly different
-                  ideas &mdash; it's flashy, but fierce; cordial, but
+                  Dancesport is both flashy and fierce, both cordial and
                   cutthroat. At the Glamour Smackdown, dancers come together
                   to experience intense competition but also the glamour,
                   beauty, and joy of ballroom dancing!
