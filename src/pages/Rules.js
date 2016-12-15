@@ -164,7 +164,8 @@ class Rules extends Component {
               </p>
               <p>
                 All other events are open, meaning there is no restriction on
-                the dance figures that competitors can do.
+                the dance figures that competitors can do. However, in all
+                events lifts and drops are not allowed.
               </p>
             </div>
           </section>
@@ -206,7 +207,8 @@ class Rules extends Component {
               </p>
               <p>
                 There are no costume restrictions in <b>Rookie/Vet</b> and
-                in <b>Gold</b> and higher levels.
+                in <b>Gold</b> and higher levels. (You still must follow
+                the <b>Attire Rules</b>, listed above.)
               </p>
               <p>
                 You can still be glamourous in Newcomer, Bronze, and Silver!
@@ -248,13 +250,15 @@ class Rules extends Component {
                 </ul>
               </p>
               <p>
-                There are no restrictions on dance figures in Nightclub events.
+                There are no restrictions on dance figures in Nightclub events,
+                except lifts and drops are not allowed.
                 Get creative!
               </p>
               <p>
                 There are no costume restrictions for Nightclub events. This
                 is your chance to be especially glamourous! Or to dance in
-                pajamas!
+                pajamas! (You still must follow the <b>Attire Rules</b>, listed
+                above.)
               </p>
             </div>
           </section>
@@ -264,7 +268,8 @@ class Rules extends Component {
               <p>
                 All performance teams compete at the same level. There are no
                 proficiency level, costume, or dance figure restrictions for
-                the Performance Team event.
+                the Performance Team event. (Performance Team members still
+                must follow the <b>Attire Rules</b>, listed above.)
               </p>
             </div>
           </section>
