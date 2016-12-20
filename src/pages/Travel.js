@@ -24,12 +24,17 @@ class Travel extends Component {
             <h1>CAMPUS HOURS</h1>
             <div>
               <p>
-                If you need to enter campus before <b>6am</b> or after <b>9pm</b>,
+                If you enter campus between <b>6am</b> and <b>9pm</b>,
+                you are allowed to remain there after 9pm. If you need to enter
+                campus outside these hours,
                 email <a href="mailto:ballroomusc@gmail.com" target="_blank">
-                ballroomusc@gmail.com</a> by <b>Thursday February 16</b> to
-                be placed on the guest list. If you aren't on the guest list
-                and need to enter campus outside these hours on the weekend of
-                the competition, check back here for a phone number to call.
+                ballroomusc@gmail.com</a> by <b>Thursday&nbsp;February&nbsp;16</b> to
+                be placed on the outside-hours guest list.
+              </p>
+              <p>
+                If you haven't done
+                this by Thursday February 16, and need to enter campus outside
+                these hours, check back here for a phone number to call.
               </p>
             </div>
           </section>

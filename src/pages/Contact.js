@@ -24,6 +24,10 @@ class Contact extends Component {
                 with any questions about the Glamour Smackdown!
               </p>
               <p>
+                On the day of the competition, there will be phone numbers on
+                this page which you can call if you have any questions at all.
+              </p>
+              <p>
                 The USC Glamour Smackdown is hosted with love by the SC Ballroom Dance
                 Team, the premiere ballroom dancing organization at USC.  To
                 find out more about us, visit our website or Facebook page.
