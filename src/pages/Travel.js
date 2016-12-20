@@ -54,12 +54,10 @@ class Travel extends Component {
                 Los Angeles, CA 90089
               </li></ul></p>
               <p>
-                Parking on campus at USC costs $12 for the whole day. You may
-                purchase parking by driving up to the parking kiosk as you
-                enter campus, and speaking to the attendant there. There is a
-                parking kiosk at every campus entrance.
-              </p>
-              <p>
+                Parking on campus at USC costs $12 for the whole day. To
+                purchase parking, drive up to the parking kiosk as you
+                enter campus and speak to the attendant. (There is a
+                kiosk at every campus entrance.)<br/>
                 Metered street parking near campus may be available but is
                 mostly limited due to construction.
               </p>
