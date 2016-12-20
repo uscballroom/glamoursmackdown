@@ -2,7 +2,7 @@ import './Travel.css';
 
 import React, { Component } from 'react';
 
-import panelButton from '../images/map_panel_button_example.png';
+// import panelButton from '../images/map_panel_button_example.png';
 
 class Travel extends Component {
   render() {
@@ -53,11 +53,16 @@ class Travel extends Component {
                 3667 McClintock Avenue<br/>
                 Los Angeles, CA 90089
               </li></ul></p>
-              <p>Parking on campus at USC costs $12 for the whole day. To
-              purchase parking, drive up to the parking kiosk as you enter
-              campus (there is a parking kiosk at every campus entrance).</p>
-              <p>Metered street parking near campus may be available but is
-              mostly limited due to construction.</p>
+              <p>
+                Parking on campus at USC costs $12 for the whole day. You may
+                purchase parking by driving up to the parking kiosk as you
+                enter campus, and speaking to the attendant there. There is a
+                parking kiosk at every campus entrance.
+              </p>
+              <p>
+                Metered street parking near campus may be available but is
+                mostly limited due to construction.
+              </p>
             </div>
           </section>
           <section>
@@ -139,7 +144,7 @@ class Travel extends Component {
               <p>
                 <strong>#3 Ground Zero Cafe</strong> (behind Trojan Resident Hall)
                 <ul>
-                  <li>Great milkshakes, coffee, and tea
+                  <li>highly recommended milkshakes, coffee, and tea
                   drinks&nbsp;&nbsp; <b>(open 1pm-8pm)</b></li>
                 </ul>
               </p>
@@ -167,6 +172,9 @@ class Travel extends Component {
                   <li>Coffee Bean & Tea Leaf</li>
                   <li>Chipotle</li>
                   <li>Chick-fil-A</li>
+                  <li>California Gogi Korean Grill</li>
+                  <li>AhiPoki Bowl</li>
+                  <li>Cold Stone Creamery</li>
                 </ul>
               </p>
             </div>
@@ -175,27 +183,22 @@ class Travel extends Component {
             <h1>MAP</h1>
             <div>
               <p>
-                See the map below
-                or <a href="https://www.google.com/maps/d/viewer?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM" target="_blank">
-                  view it externally
-                </a> for walking directions and food locations.
-              </p>
-              <p>
-                Click the Side Panel button <img src={panelButton} role="presentation"/> to show
-                directions from hotels, transit, and parking.
+                <a href="https://www.google.com/maps/d/viewer?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM" target="_blank">
+                  Click here to view our map with walking directions and food & drink locations.
+                </a>
               </p>
             </div>
           </section>
-          <div className="Travel-map-capsule">
-            <iframe
-              className="Travel-map"
-              src="https://www.google.com/maps/d/embed?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM"
-            />
-          </div>
         </div>
       </div>
     );
   }
+  // <div className="Travel-map-capsule">
+  //   <iframe
+  //     className="Travel-map"
+  //     src="https://www.google.com/maps/d/embed?mid=1Cg8r9s4puVE56pdnPAodHcH2CwM"
+  //   />
+  // </div>
 }
 
 export default Travel;
