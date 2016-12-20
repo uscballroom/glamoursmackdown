@@ -24,17 +24,17 @@ class Travel extends Component {
             <h1>CAMPUS HOURS</h1>
             <div>
               <p>
-                If you enter campus between <b>6am</b> and <b>9pm</b>,
-                you are allowed to remain there after 9pm. If you need to enter
-                campus outside these hours,
+                USC is a private campus, and the entrances are monitored during
+                night hours, after <b>9pm</b> and before <b>6am</b>. If you
+                intend to enter campus during night hours,
                 email <a href="mailto:ballroomusc@gmail.com" target="_blank">
                 ballroomusc@gmail.com</a> by <b>Thursday&nbsp;February&nbsp;16</b> to
-                be placed on the outside-hours guest list.
+                be placed on the night-hours guest list.
               </p>
               <p>
-                If you haven't done
-                this by Thursday February 16, and need to enter campus outside
-                these hours, check back here for a phone number to call.
+                If you haven't done this by Thursday February 16, and need
+                to enter campus during night hours, check back here for a
+                phone number to call on the day of the competition.
               </p>
             </div>
           </section>
@@ -53,9 +53,9 @@ class Travel extends Component {
                 3667 McClintock Avenue<br/>
                 Los Angeles, CA 90089
               </li></ul></p>
-              <p>Parking on campus at USC costs $12 for the whole day.  To
-              purchase parking, drive to the parking kiosk when you enter
-              campus.</p>
+              <p>Parking on campus at USC costs $12 for the whole day. To
+              purchase parking, drive up to the parking kiosk as you enter
+              campus (there is a parking kiosk at every campus entrance).</p>
               <p>Metered street parking near campus may be available but is
               mostly limited due to construction.</p>
             </div>
