@@ -1,3 +1,7 @@
 .Register {
   padding: 20px 0;
 }
+
+.Register-address {
+  margin-left: 20px;
+}

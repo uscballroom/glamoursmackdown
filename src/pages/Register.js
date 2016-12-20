@@ -93,10 +93,12 @@ class Register extends Component {
                   <p>
                     Enclose the name and school/team affiliation of each person
                     you're paying for, and mail your payment to:
-                    <h3>SC Ballroom and Latin Dance Team</h3>
-                    Lyon Recreation Center<br/>
-                    1026 W 34th St<br/>
-                    Los Angeles, CA 90089
+                    <div className="Register-address">
+                      SC Ballroom and Latin Dance Team<br/>
+                      Lyon Recreation Center<br/>
+                      1026 W 34th St<br/>
+                      Los Angeles, CA 90089
+                    </div>
                   </p>
                   <p>
                     For group payments, print
@@ -146,10 +148,12 @@ class Register extends Component {
               <p>
                 Mail the filled out Performance Team Registration Form along
                 with team member payments to:
-                <h3>SC Ballroom and Latin Dance Team</h3>
-                Lyon Recreation Center<br/>
-                1026 W 34th St<br/>
-                Los Angeles, CA 90089
+                <div className="Register-address">
+                  SC Ballroom and Latin Dance Team<br/>
+                  Lyon Recreation Center<br/>
+                  1026 W 34th St<br/>
+                  Los Angeles, CA 90089
+                </div>
               </p>
             </div>
           </section>
