@@ -71,8 +71,8 @@ class Events extends Component {
   ];
   _nightclubEventsByStyle = [
     { title: 'Nightclub', events: [
-      { level: 'Beginner',     dances: ['Salsa', 'Merengue', 'Hustle', 'West\xa0Coast\xa0Swing', 'Nightclub\xa0Twostep', 'Blues', 'Argentine\xa0Tango', 'Lindy\xa0Hop'] },
-      { level: 'Non-Beginner', dances: ['Salsa', 'Merengue', 'Hustle', 'West\xa0Coast\xa0Swing', 'Nightclub\xa0Twostep', 'Blues', 'Argentine\xa0Tango', 'Lindy\xa0Hop'] },
+      { level: 'Beginner',     dances: ['Salsa', 'Bachata', 'Merengue', 'Hustle', 'West\xa0Coast\xa0Swing', 'Nightclub\xa0Twostep', 'Blues', 'Argentine\xa0Tango', 'Lindy\xa0Hop'] },
+      { level: 'Non-Beginner', dances: ['Salsa', 'Bachata', 'Merengue', 'Hustle', 'West\xa0Coast\xa0Swing', 'Nightclub\xa0Twostep', 'Blues', 'Argentine\xa0Tango', 'Lindy\xa0Hop'] },
     ]},
   ];
   render() {
