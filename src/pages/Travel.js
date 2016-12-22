@@ -149,9 +149,9 @@ class Travel extends Component {
               <p>
                 <strong>#4 Gateway apartment building</strong>
                 <ul>
-                  <li>Dog Haus</li>
                   <li>Blaze Pizza</li>
                   <li>Subway</li>
+                  <li>Dog Haus</li>
                   <li>Yogurtland</li>
                   <li>Cream</li>
                 </ul>
