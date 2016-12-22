@@ -102,7 +102,7 @@ class Register extends Component {
                   </p>
                   <p>
                     For group payments, print
-                    the <a href="/register" target="_blank">Group Payment Form</a> and
+                    the <a href={`${process.env.PUBLIC_URL}/group_payment.pdf`} target="_blank">Group Payment Form</a> and
                     enclose it with your payment. Even with group payments,
                     each couple must fill out an online registration form.
                   </p>
@@ -125,11 +125,11 @@ class Register extends Component {
               <h3>Performance Team Managers:</h3>
               <p>
                 Print and fill out
-                the <a href="/register" target="_blank">Performance Team
+                the <a href={`${process.env.PUBLIC_URL}/performance_team_registration.pdf`} target="_blank">Performance Team
                 Registration Form</a>.
               </p>
               <p>
-                For each participant in your performance team:
+                For each member of your performance team:
                 <ul>
                   <li>
                     If they are only competing in performance teams, they do not
