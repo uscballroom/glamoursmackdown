@@ -91,6 +91,10 @@ class Events extends Component {
                 ))}
               </p>
               <p>
+                Be sure to arrive at least 30 minutes prior to the beginning of
+                your first event.
+              </p>
+              <p>
                 During the Dinner Break, no one will be allowed in the ballroom.
                 There will be a nearby room reserved for competitors to occupy
                 during this time.
