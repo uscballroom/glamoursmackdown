@@ -1,6 +1,7 @@
 import './Travel.css';
 
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 // import panelButton from '../images/map_panel_button_example.png';
 
@@ -91,9 +92,7 @@ class Travel extends Component {
                   Los Angeles, CA 90007<br/>
                   <a href="https://www.radisson.com/los-angeles-hotel-ca-90007/cafiguer" target="_blank">
                     hotel website
-                  </a>
-                </p>
-                <p>
+                  </a><br/>
                   This hotel is across the street from campus and near vendors
                   such as Starbucks, Pizza Studio, Chipotle, and Chick-fil-A.
                 </p>
@@ -105,14 +104,22 @@ class Travel extends Component {
                   Los Angeles, CA 90007<br/>
                   <a href="http://www.vagabondinn.com/vagabond-inn-los-angeles-at-usc" target="_blank">
                     hotel website
-                  </a>
-                </p>
-                <p>
+                  </a><br/>
                   A less expensive option, this hotel is one block away from
                   campus, on the busy Figeroa street, and near restaurants
                   such as Blaze Pizza and Dog Haus.
                 </p>
               </li></ul></p>
+              <p>
+                If you are a college student and cannot afford staying at a
+                hotel but you do pay the Glamour Smackdown registration fee, one
+                of the SC Ballroom Dance Team members may have room for you.
+                Space is
+                limited. <Link to="/contact">Contact us</Link> before <b>Feb.&nbsp;11&nbsp;2017</b> if
+                you want to look into this option. Please note that this is only
+                open to college students and and it is reserved for those that
+                cannot afford staying at a hotel.
+              </p>
             </div>
           </section>
           <section>
