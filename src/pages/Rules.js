@@ -266,10 +266,17 @@ class Rules extends Component {
             <h1>PERFORMANCE TEAM</h1>
             <div>
               <p>
-                All performance teams compete at the same level. There are no
-                proficiency level, costume, or dance figure restrictions for
-                the Performance Team event. (Performance Team members still
-                must follow the <b>Attire Rules</b>, listed above.)
+                All performance teams compete against each other in the same
+                event. There are no proficiency level, costume, or dance figure
+                restrictions for the Performance Team event. (Performance Team
+                members still must follow the <b>Attire Rules</b>, listed
+                above.)
+              </p>
+              <p>
+                There is no minimum or maximum number of performers per team.
+              </p>
+              <p>
+                Each team may perform 1 song which may be up to 4 minutes long.
               </p>
             </div>
           </section>
