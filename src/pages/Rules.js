@@ -267,16 +267,24 @@ class Rules extends Component {
             <div>
               <p>
                 All performance teams compete against each other in the same
-                event. There are no proficiency level, costume, or dance figure
+                event. There is no minimum or maximum number of performers per
+                team.
+              </p>
+              <p>
+                There are no proficiency level, costume, or dance figure
                 restrictions for the Performance Team event. (Performance Team
                 members still must follow the <b>Attire Rules</b>, listed
-                above.)
+                above.) There are also no restrictions on the music
+                (mixing/medleys are allowed).
               </p>
               <p>
-                There is no minimum or maximum number of performers per team.
+                Each performance may be 4 minutes long. Teams will have
+                additional time to enter and leave the floor.
               </p>
               <p>
-                Each team may perform 1 song which may be up to 4 minutes long.
+                Performances will be evaluated by our judges based on a
+                combination of dance technique and the creativity of the
+                choreography.
               </p>
             </div>
           </section>
