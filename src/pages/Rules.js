@@ -268,7 +268,8 @@ class Rules extends Component {
               <p>
                 All performance teams compete against each other in the same
                 event. There is no minimum or maximum number of performers per
-                team.
+                team. Also, multiple performance teams from the same
+                school/organization may register.
               </p>
               <p>
                 There are no proficiency level, costume, or dance figure

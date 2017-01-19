@@ -155,6 +155,12 @@ class Register extends Component {
                   Los Angeles, CA 90089
                 </div>
               </p>
+              <p>
+                Be sure to bring your performance music to the competition on
+                a flash drive. If you are unable to bring a flash
+                drive, <Link to="/contact">contact us</Link> to
+                see if other formats would work.
+              </p>
             </div>
           </section>
         </div>
