@@ -6,11 +6,12 @@
 
 
 
+/*
 @font-face { 
   font-family: 'The Bold Font';
   src: url('./fonts/the_bold_font.ttf') format('truetype'); 
 }
-
+*/
 ::selection {
   background-color: rgba(255,245,184,0.5);
 }

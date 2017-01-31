@@ -40,11 +40,11 @@ class Events extends Component {
       { level: 'Rookie/Vet', dances: ['Cha-Cha', 'Rumba', 'East\xa0Coast\xa0Swing', 'Bolero', 'Mambo'] },
     ]},
     { title: 'Syllabus International Latin', events: [
-      { level: 'Newcomer',   dances: ['Cha-Cha', 'Rumba', 'Samba', 'Jive'] },
-      { level: 'Bronze',     dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
-      { level: 'Silver',     dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
-      { level: 'Gold',       dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
-      { level: 'Rookie/Vet', dances: ['Cha-Cha', 'Rumba', 'Samba', 'Paso\xa0Doble', 'Jive'] },
+      { level: 'Newcomer',   dances: ['Cha-Cha', 'Samba', 'Rumba', 'Jive'] },
+      { level: 'Bronze',     dances: ['Cha-Cha', 'Samba', 'Rumba', 'Paso\xa0Doble', 'Jive'] },
+      { level: 'Silver',     dances: ['Cha-Cha', 'Samba', 'Rumba', 'Paso\xa0Doble', 'Jive'] },
+      { level: 'Gold',       dances: ['Cha-Cha', 'Samba', 'Rumba', 'Paso\xa0Doble', 'Jive'] },
+      { level: 'Rookie/Vet', dances: ['Cha-Cha', 'Samba', 'Rumba', 'Paso\xa0Doble', 'Jive'] },
     ]},
   ];
   _openEventsByStyle = [
@@ -64,9 +64,9 @@ class Events extends Component {
       { level: 'Champ',     dances: ['Cha-Cha\xa0/ Rumba\xa0/ East\xa0Coast\xa0Swing\xa0/ Bolero\xa0/ Mambo'] },
     ]},
     { title: 'Open International Latin', events: [
-      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba'] },
-      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Jive'] },
-      { level: 'Champ',     dances: ['Cha-Cha\xa0/ Rumba\xa0/ Samba\xa0/ Paso\xa0Doble\xa0/ Jive'] },
+      { level: 'Novice',    dances: ['Cha-Cha\xa0/ Samba\xa0/ Rumba'] },
+      { level: 'Pre-champ', dances: ['Cha-Cha\xa0/ Samba\xa0/ Rumba\xa0/ Jive'] },
+      { level: 'Champ',     dances: ['Cha-Cha\xa0/ Samba\xa0/ Rumba\xa0/ Paso\xa0Doble\xa0/ Jive'] },
     ]},
   ];
   _nightclubEventsByStyle = [
