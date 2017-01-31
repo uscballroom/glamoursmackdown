@@ -121,3 +121,28 @@ section > div {
     flex: 1;
   }
 }
+
+.sponsor {
+  display: block;
+  text-align: center;
+  height: 200px;
+  border-radius: 20px;
+  padding: 12px;
+}
+.sponsor:hover {
+  background-color: rgba(255,245,184,0.1);
+}
+.sponsor:active {
+  background-color: rgba(255,245,184,0.05);
+}
+
+.sponsor>p {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+
+.sponsor-soho>p {
+  background-image: url('./images/soho.png');
+}

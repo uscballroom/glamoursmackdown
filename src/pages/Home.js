@@ -43,6 +43,8 @@ class Home extends Component {
                   bling, bow ties, and most importantly your best ballroom
                   dancing to amaze your adoring fans and knock out your
                   opponents!<br/>
+                  Judges, spectators, coaches, and competitors are all invited
+                  to dress to impress.<br/>
                   <Link to="/rules">Click here for the competition rules</Link>
                 </p>
               </div>
@@ -86,6 +88,19 @@ class Home extends Component {
                 </p>
               </div>
             </section>
+            <section>
+              <h1>SPONSORS</h1>
+              <div>
+                <p>
+                  We thank our generous sponsors for their support!
+                </p>
+              </div>
+            </section>
+            <a
+              href="http://www.sohodancela.com/"
+              className="sponsor sponsor-soho"
+              target="_blank"
+            ><p/></a>
           </div>
         </div>
       </div>
