@@ -43,9 +43,23 @@ class Home extends Component {
                   bling, bow ties, and most importantly your best ballroom
                   dancing to amaze your adoring fans and knock out your
                   opponents!<br/>
-                  Judges, spectators, coaches, and competitors are all invited
-                  to dress to impress.<br/>
                   <Link to="/rules">Click here for the competition rules</Link>
+                </p>
+              </div>
+            </section>
+            <section>
+              <h1>WHY</h1>
+              <div>
+                <p>
+                  The Glamour Smackdown is the perfect place for dancers to
+                  truly shine &mdash; it is in a beautiful ballroom with special
+                  lighting, and we are bringing a full regulation-sized ballroom
+                  floor so dancers can show their best dancing.
+                </p>
+                <p>
+                  The Glamour Smackdown will be especially extravagant because
+                  judges, spectators, coaches, and competitors are all invited
+                  to dress to impress.
                 </p>
               </div>
             </section>
