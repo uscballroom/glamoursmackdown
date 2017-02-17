@@ -10,6 +10,15 @@ class Home extends Component {
         <div className="Common-top-section">
           <div className="container">
             <section>
+              <h1>HEATLISTS</h1>
+              <div>
+                <p>
+                  Glamour Smackdown is almost here! Official heat lists are available!<br/>
+                  <a href={`${process.env.PUBLIC_URL}/glamoursmackdown2017heatlists.pdf`} target="_blank">Click Here to view heat lists</a>
+                </p>
+              </div>
+            </section>
+            <section>
               <h1>WHEN</h1>
               <div>
                 <p>
