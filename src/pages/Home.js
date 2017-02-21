@@ -10,11 +10,21 @@ class Home extends Component {
         <div className="Common-top-section">
           <div className="container">
             <section>
-              <h1>HEATLISTS</h1>
+              <h1>THANK YOU!</h1>
               <div>
                 <p>
-                  Glamour Smackdown is almost here! Official heat lists are available!<br/>
-                  <a href={`${process.env.PUBLIC_URL}/glamoursmackdown2017heatlists.pdf`} target="_blank">Click Here to view heat lists</a>
+                  Thanks to everyone who came to Glamour Smackdown! We hope you had a great time!<br/>
+                  Here are the competition's results and other documents:<br/>
+                  <a href={`${process.env.PUBLIC_URL}/glamoursmackdown2017results.pdf`} target="_blank">Click here to view all results</a><br/>
+                </p>
+                <p>
+                  Other documents: &nbsp; <a
+                    href={`${process.env.PUBLIC_URL}/glamoursmackdown2017program.pdf`}
+                    target="_blank"
+                  >program file</a> &nbsp; <a
+                    href={`${process.env.PUBLIC_URL}/glamoursmackdown2017heatlists.pdf`}
+                    target="_blank"
+                  >heat lists file</a>
                 </p>
               </div>
             </section>
@@ -72,7 +82,7 @@ class Home extends Component {
                 </p>
               </div>
             </section>
-            <section>
+            {/*<section>
               <h1>REGISTRATION</h1>
               <div>
                 <h2>Registration Deadline: Friday&nbsp;Feb.&nbsp;3,&nbsp;2017</h2>
@@ -99,7 +109,7 @@ class Home extends Component {
                   </ul>
                 </p>
               </div>
-            </section>
+            </section>*/}
             <section>
               <h1>ABOUT THE THEME</h1>
               <div>
