@@ -1,0 +1,130 @@
+@media (min-width: 992px) {
+  /* (This overrides the Bootstrap .container class's behavior) */
+  .container {
+    width: 900px;
+  }
+}
+
+
+
+/*
+@font-face {
+  font-family: 'The Bold Font';
+  src: url('./fonts/the_bold_font.ttf') format('truetype');
+}
+*/
+::selection {
+  background-color: rgba(255,245,184,0.5);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir', sans-serif;
+  background-color: #141438;
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* Hack to make ol's numbers bold. The contents of every li in every ol should
+ * be wrapped in something, such as a span or div. */
+ol>li {
+  font-weight: 700;
+}
+ol>li>* {
+  font-weight: initial;
+}
+
+strong {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+b {
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+a, a:visited, a:focus {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #FF2050;
+  transition: background-color 0.4s;
+}
+
+a:hover {
+  color: #FF2050;
+  text-decoration: underline;
+  transition: none;
+}
+
+a:active {
+  color: #87122b;
+  border-radius: 0.5em;
+}
+
+h1, h2, h3 {
+  margin: unset;
+  padding: unset;
+  line-height: initial;
+}
+
+h1 {
+  /*font-family: 'The Bold Font';*/
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFF5B8;
+  /*letter-spacing: 0.1px;*/
+}
+
+h2, h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+p, h2, ul {
+  margin-bottom: 0;
+}
+
+/* We're just using <hr/> for spacing, not for an actual line. */
+hr {
+  border: none;
+  color: transparent;
+  margin: 0 0 14px 0;
+}
+
+/* Be careful with the "section" stuff below since it uses flexbox. */
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-bottom: 26px;
+}
+section>h1 {
+  margin-bottom: 2px;
+}
+section>div {
+  padding-left: 24px;
+}
+
+@media (min-width: 520px) {
+  section {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  section>h1 {
+    text-align: right;
+    padding-right: 6px;
+    margin-bottom: 0;
+    flex: 0 0 128px;
+  }
+  section>div {
+    flex: 1;
+  }
+}

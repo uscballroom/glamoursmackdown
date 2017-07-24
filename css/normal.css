@@ -1,0 +1,127 @@
+/*
+Colors from our designer:
+  blue: #141438
+  magenta: #DC1D46
+  yellow: #FFF5B8
+
+Old colors used in development:
+  glamour red:
+  #B9254B
+  #FF4D79
+  #FFA7BD
+  glamour medium:
+  #D27451
+  glamour light:
+  #F9F6BE
+  smackdown tan:
+  #FEF8C6
+  #E6E5D7
+  backdrop:
+  #121422
+  #1B1D2E
+  #23253B
+  #2A2D47
+*/
+
+.normal {
+}
+
+.normal-header {
+  text-align: center;
+}
+
+.normal-header-image {
+  width: 100%;
+  transition: width 0.35s;
+}
+@media (min-width: 520px) {
+  .normal-header-image {
+    width: 50%;
+  }
+  .normal-header-expanded .normal-header-image {
+    width: 100%;
+  }
+}
+
+
+
+.normal-navigation-capsule {
+  background-color: #DC1D46;
+  overflow: hidden;
+  border-radius: 1.34em;
+}
+.normal-navigation {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+@media (min-width: 450px) {
+  .normal-navigation {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .normal-navigation-capsule {
+    display: inline-block;
+    padding: 2px 3px;
+  }
+  .normal-navigation > .normal-navigation-link {
+    border-radius: 1.34em;
+    margin: -2px -3px;
+  }
+}
+
+.normal-navigation-link {
+  z-index: 2;
+  line-height: 2.68em;
+  height: 2.68em;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  color: #FFF5B8;
+}
+.normal-navigation-link:hover {
+  text-decoration: none;
+  color: #FFF5B8;
+  background-color: #EA7374;
+  /*background-color: rgba(255,245,184,0.4);*/
+}
+.normal-navigation-link:active {
+  text-decoration: none;
+  z-index: 0;
+  color: #FFF5B8;
+  background-color: #E13E58;
+  /*background-color: rgba(255,245,184,0.15);*/
+}
+.normal-navigation-link:focus,
+.normal-navigation-link:visited {
+  text-decoration: none;
+  color: #FFF5B8;
+}
+
+.normal-navigation-active {
+  z-index: 1;
+  text-decoration: none;
+  color: #FFF5B8;
+  background-color: #E55363;
+  /*background-color: rgba(255,245,184,0.25);*/
+}
+.normal-navigation-active:hover {
+  background-color: #E55363;
+  /*background-color: rgba(255,245,184,0.25);*/
+}
+.normal-navigation-active:active,
+.normal-navigation-active:focus,
+.normal-navigation-active:visited {
+  color: #FFF5B8;
+  text-decoration: none;
+}
+
+
+
+.normal-page {
+  min-height: 100vh;
+}

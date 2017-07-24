@@ -82,7 +82,7 @@ class Home extends Component {
                 </p>
               </div>
             </section>
-            {/*<section>
+            <section>
               <h1>REGISTRATION</h1>
               <div>
                 <h2>Registration Deadline: Friday&nbsp;Feb.&nbsp;3,&nbsp;2017</h2>
@@ -109,7 +109,7 @@ class Home extends Component {
                   </ul>
                 </p>
               </div>
-            </section>*/}
+            </section>
             <section>
               <h1>ABOUT THE THEME</h1>
               <div>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="{{site.github.url}}/images/favicon.ico">
+
+  <title>{{page.title}} | USC Glamour Smackdown Ballroom Dance Competition</title>
+
+  <!-- Third-party CSS below -->
+  <link rel="stylesheet" href="{{site.github.url}}/thirdparty/bootstrap.min.css"/>
+  <!-- Third-party CSS above -->
+
+
+  <!-- inline CSS and CSS files written by us below -->
+  <style>body {background-color: #141438;}</style>
+  <link rel="stylesheet" href="{{site.github.url}}/css/index.css"/>
+  <link rel="stylesheet" href="{{site.github.url}}/css/normal.css"/>
+
+  <link rel="stylesheet" href="{{site.github.url}}/css/home.css"/>
+  <link rel="stylesheet" href="{{site.github.url}}/css/register.css"/>
+  <link rel="stylesheet" href="{{site.github.url}}/css/travel.css"/>
+  <link rel="stylesheet" href="{{site.github.url}}/css/events.css"/>
+  <link rel="stylesheet" href="{{site.github.url}}/css/rules.css"/>
+  <link rel="stylesheet" href="{{site.github.url}}/css/contact.css"/>
+  <!-- inline CSS and CSS files written by us above -->
+
+</head>
+<body>
+
+  <!-- Visible website below -->
+  <div class="normal">
+    <header class="normal-header {% if page.large_header %}normal-header-expanded{% endif %}">
+      <div class="container">
+        <img src="{{site.github.url}}/images/logo.svg" alt="Glamour Smackdown" class="normal-header-image"/>
+      </div>
+      <div class="container normal-navigation-container">
+        <div class="normal-navigation-capsule">
+          <nav class="normal-navigation">
+            <!-- Don't touch the following line; instead edit _data/page_order.yaml -->
+            {% for page_id in site.data.page_order %}{% assign page_url = page_id | prepend:"/" | append:"/" %}{% assign p = site.pages | where:"url", page_url | first %}<a class="normal-navigation-link {% if p.url == page.url %}normal-navigation-active{% endif %}" href="{{p.url}}">{{p.title}}</a>{% endfor %}
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="normal-page">
+      {{content}}
+    </main>
+  </div>
+  <!-- Visible website above -->
+
+
+</body>
+</html>

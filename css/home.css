@@ -1,0 +1,33 @@
+.home {
+  padding: 20px 0;
+}
+
+.home-time-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.home-time-col {
+  padding-right: 40px;
+}
+
+.home-register-link {
+  font-size: 1.1em;
+}
+
+.home-sponsor {
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  padding: 12px;
+  margin-bottom: 14px;
+}
+.home-sponsor>img {
+  height: 200px;
+}
+.home-sponsor:hover {
+  background-color: rgba(255,245,184,0.1);
+}
+.home-sponsor:active {
+  background-color: rgba(255,245,184,0.05);
+}

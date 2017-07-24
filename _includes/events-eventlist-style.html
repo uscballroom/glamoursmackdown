@@ -1,0 +1,16 @@
+<div class="events-eventlist-style">
+  <h2>{{include.style.title}}</h2>
+  <hr/>
+  {% for event in include.style.events %}
+    <div class="events-eventlist-row">
+      <div class="events-eventlist-level-column">{{event.level}}</div>
+      <div class="events-eventlist-dances-column">
+        <span class="events-eventlist-dances">
+          {% for dance in event.dances %}
+            <b class="events-eventlist-dance">{{dance}}</b>
+          {% endfor %}
+        </span>
+      </div>
+    </div>
+  {% endfor %}
+</div>

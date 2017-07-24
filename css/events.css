@@ -1,0 +1,63 @@
+.events {
+  padding: 20px 0;
+}
+
+.events-schedule-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-bottom: 4px;
+}
+.events-schedule-time {
+  flex: 0 0 84px;
+  text-align: right;
+  padding-right: 18px;
+}
+.events-schedule-activity {
+  flex: 1;
+}
+
+
+
+.events-eventlist-style {
+  margin-bottom: 36px;
+}
+.events-eventlist-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin: 5px 0;
+}
+.events-eventlist-level-column {
+  padding-top: 2px;
+  flex: 0 0 96px;
+}
+.events-eventlist-dances-column {
+  flex: 1;
+}
+.events-eventlist-dances {
+  display: flex;
+  flex-flow: row wrap;
+}
+.events-eventlist-dance {
+  color: #FFF5B8;
+  background-color: #DC1D46;
+  padding: 2px 8px 1px;
+  margin: 0 6px 4px 0;
+  border-radius: 6px;
+}
+
+@media (max-width: 750px) {
+  .events-eventlist-row {
+    flex-flow: column nowrap;
+    margin: 8px 0;
+  }
+  .events-eventlist-level-column {
+    flex: unset;
+    margin-bottom: 6px;
+  }
+  .events-eventlist-dances-column {
+    flex: unset;
+    margin-left: 8px;
+  }
+}

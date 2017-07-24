@@ -1,0 +1,8 @@
+# The page names here must exactly match the filenames inside the "_pages"
+#   folder, without the ".html".
+- home
+- register
+- travel
+- events
+- rules
+- contact
